@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Initialisation des coefficients</name>
+  <uuid>ca6f091b-3913-45a5-9b50-997cb4b7f778</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[alors 
+	affecter à 'coefficient bonus' la valeur 0 ;   
+	affecter à 'coefficient de base' la valeur 0;
+	affecter à 'coefficient de société' la valeur 0;
+	affecter à 'seuil de cotisation' la valeur 0;  ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

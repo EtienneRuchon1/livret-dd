@@ -1,0 +1,94 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Agence Voyage BOM//Agence Voyages XOM"
+property uuid "d7c0df55-0ba6-4837-9018-7a7aec83912a"
+package pn.src;
+
+
+public class CodePromotionnel
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "1"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.fr" "3"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.fr" "2"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "0"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "0"
+        property domainProviderResource "DomaineCodePromo.xlsx"
+        property domainValueProviderName "com.ibm.rules.domainProvider.msexcel2007"
+{
+    domain {static CP01, static CP02, static CP03, static CP04}
+    public static final readonly pn.src.CodePromotionnel CP01;
+    public static final readonly pn.src.CodePromotionnel CP02;
+    public static final readonly pn.src.CodePromotionnel CP03;
+    public static final readonly pn.src.CodePromotionnel CP04;
+}
+
+public class CodeVoyage
+{
+    domain {static motifAutre, static motifLoisir, static motifTravail}
+    public string codePromo;
+    public readonly string motif;
+    public static final readonly pn.src.CodeVoyage motifAutre;
+    public static final readonly pn.src.CodeVoyage motifLoisir;
+    public static final readonly pn.src.CodeVoyage motifTravail;
+    public int points;
+    public CodeVoyage(string arg);
+    public CodeVoyage(string arg1, int arg2, string arg3);
+    public CodeVoyage();
+}
+
+public class Demande
+{
+    public string arrivee;
+    public double budgetMax;
+    public int classeMin;
+    public string depart;
+    public int nbCorresMax;
+    public java.util.List passagers domain 0,* class pn.src.Passager;
+    public Demande(string arg1, 
+        string arg2, 
+        int arg3, 
+        double arg4, 
+        int arg5, 
+        java.util.List arg6 domain 0,* class pn.src.Passager);
+    public Demande();
+}
+
+public class Passager
+        property automaticVariable "true"
+{
+    public int age;
+    public string carteReduction;
+    public string nom;
+    public string prenom;
+    public Passager(string arg1, string arg2, int arg3, string arg4);
+    public Passager();
+}
+
+public class Reservation
+{
+    public pn.src.CodePromotionnel codePromo;
+    public double coutParKm;
+    public int distance;
+    public string etat domain {"Validé", "Annulé", "A confirmé", "Anomalie"};
+    public pn.src.CodeVoyage motifVoyage;
+    public int nbCorrespondances;
+    public double prixTotal;
+    public string villeArrivee;
+    public string villeDepart;
+    public Reservation(string arg1, double arg2, double arg3, string arg4, pn.src.CodeVoyage arg5, string arg6, string arg7);
+    public Reservation();
+    public static double appliquerReductionSurDistance(int distanceTotale, double prixParKm, double reduction, int distanceReduction);
+    public static boolean comparerCodeVoyage(pn.src.CodeVoyage cv1, pn.src.CodeVoyage cv2);
+    public string resumeReservation();
+}
+
+public class Utilitaire
+{
+    public static int dist;
+    public static int nbCorrespondances;
+    public Utilitaire();
+    public static double arrondi(double arg1, int arg2);
+    public static double calculPrixTrajet(int arg1, double arg2);
+    public static void calculerVoyage(string arg1, string arg2);
+}
+

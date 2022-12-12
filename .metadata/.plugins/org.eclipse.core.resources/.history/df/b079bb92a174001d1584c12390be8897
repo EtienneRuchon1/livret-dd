@@ -1,0 +1,14 @@
+package pn;
+
+import java.util.Date;
+
+public class Operation {
+	
+	Date date;
+	Date dateDeValeur;
+	double montant;
+	
+	
+	
+
+}

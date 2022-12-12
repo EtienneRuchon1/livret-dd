@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="pn.src.Reservation">
+            <rule id="df070014-257c-4ed4-a3a1-646191cccfa0"/>
+            <rule id="b94641a5-6c09-41f9-a2a3-710dc912e9f7"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation/etat/GETTER#0">
+            <rule id="df070014-257c-4ed4-a3a1-646191cccfa0"/>
+            <rule id="b94641a5-6c09-41f9-a2a3-710dc912e9f7"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="df070014-257c-4ed4-a3a1-646191cccfa0">
+            <vocElt id="pn.src.Reservation"/>
+            <vocElt id="pn.src.Reservation/etat/GETTER#0"/>
+        </rule>
+        <rule id="b94641a5-6c09-41f9-a2a3-710dc912e9f7">
+            <vocElt id="pn.src.Reservation"/>
+            <vocElt id="pn.src.Reservation/etat/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="resa">
+            <rule id="df070014-257c-4ed4-a3a1-646191cccfa0"/>
+            <rule id="b94641a5-6c09-41f9-a2a3-710dc912e9f7"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="df070014-257c-4ed4-a3a1-646191cccfa0">
+            <param id="resa"/>
+        </rule>
+        <rule id="b94641a5-6c09-41f9-a2a3-710dc912e9f7">
+            <param id="resa"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc">
+            <rule id="df070014-257c-4ed4-a3a1-646191cccfa0"/>
+            <rule id="b94641a5-6c09-41f9-a2a3-710dc912e9f7"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Agence Voyage BOM/BOM/modèle Agence_fr_FR.voc" id="60a56afa-a987-4cbf-b816-1a3b6002be1c">
+            <rule id="df070014-257c-4ed4-a3a1-646191cccfa0"/>
+            <rule id="b94641a5-6c09-41f9-a2a3-710dc912e9f7"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Agence Voyage Regles/requêtes/Un état annulé.qry" id="b94641a5-6c09-41f9-a2a3-710dc912e9f7"/>
+        <resource file="/Agence Voyage Regles/règles/Variables Voyage.var" id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
+        <resource file="/Agence Voyage Regles/requêtes/Modifie valeur réservation.qry" id="df070014-257c-4ed4-a3a1-646191cccfa0"/>
+    </resourceTable>
+</impactTables>

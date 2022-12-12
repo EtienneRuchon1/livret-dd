@@ -1,0 +1,143 @@
+package pn;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.List;
+
+public class Utilitaire {
+
+	public static List<Double> interets = new ArrayList<Double>();
+
+	public static int calculerNombreQuinzaines(Date dateValeur1, Date dateValeur2) throws ParseException {
+		int nbQuinzaine = 0;
+
+
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(dateValeur1);
+		while (!dateValeur1.equals(dateValeur2)) {
+			cal.add(Calendar.DATE, 1);
+			System.out.println(dateValeur1 + "====" + dateValeur2);
+
+			dateValeur1 = cal.getTime();
+			if (estLeDernierJourDuMois(dateValeur1)) {
+				nbQuinzaine++;
+			} else if (cal.get(Calendar.DAY_OF_MONTH) == 15) {
+				nbQuinzaine++;
+			}
+		}
+		return nbQuinzaine;
+	}
+
+	private static boolean estLeDernierJourDuMois(Date date) {
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(date);
+
+		Calendar cal2 = Calendar.getInstance();
+		cal2.setTime(date);
+		cal2.add(Calendar.DATE, 1);
+
+		if (cal.get(Calendar.MONTH) != cal2.get(Calendar.MONTH)) {
+			return true;
+		}
+		return false;
+	}
+
+	public static Date convertiEnDate(String date) throws ParseException {
+
+		DateFormat sourceFormat = new SimpleDateFormat("dd/MM/yyyy");
+		String dateAsString = date;
+		Date result = sourceFormat.parse(dateAsString);
+		return result;
+
+	}
+
+	public static String convertiEnChaine(Date date) {
+		DateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		String dateToStr = dateFormat.format(date);
+		return dateToStr;
+
+	}
+
+	public static Date retrournerLaDateDeValeurDe(Transaction tr) throws ParseException {
+		Date date = convertiEnDate(tr.getDate());
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(date);
+
+		if (tr.getMontant() > 0) { // La transaction est un débit
+			if ((cal.get(Calendar.DAY_OF_MONTH) < 16)) {
+				cal.set(Calendar.DAY_OF_MONTH, 16);
+
+			} else {
+				cal.add(Calendar.MONTH, 1);
+				cal.set(Calendar.DAY_OF_MONTH, 1);
+
+			}
+		} else if (tr.getMontant() < 0) {
+			if ((cal.get(Calendar.DAY_OF_MONTH) < 16)) {
+				cal.set(Calendar.DAY_OF_MONTH, 1);
+
+			} else {
+				cal.set(Calendar.DAY_OF_MONTH, 16);
+			}
+		}
+
+		return cal.getTime();
+
+	}
+
+	public static Date retrournerLaDateDeValeurDeLaDernière(Transaction tr) throws ParseException {
+		Date date = convertiEnDate(tr.getDate());
+		Calendar cal = Calendar.getInstance();
+		cal.setTime(date);
+
+		if (tr.getMontant() > 0) { // La transaction est un débit
+			if ((cal.get(Calendar.DAY_OF_MONTH) < 16)) {
+				cal.set(Calendar.DAY_OF_MONTH, 16);
+
+			} else {
+				cal.add(Calendar.MONTH, 1);
+				cal.set(Calendar.DAY_OF_MONTH, 1);
+
+			}
+		} else if (tr.getMontant() < 0) {
+			if ((cal.get(Calendar.DAY_OF_MONTH) < 16)) {
+				cal.set(Calendar.DAY_OF_MONTH, 1);
+
+			} else {
+				cal.set(Calendar.DAY_OF_MONTH, 16);
+			}
+		}
+
+		return cal.getTime();
+
+	}
+	
+
+	public static void ajouterIntérêt(double interet) {
+		interets.add(interet);
+	}
+
+	public static void main(String[] args) throws ParseException {
+
+		Date date = convertiEnDate("16/06/2009");
+		Date date1 = convertiEnDate("01/09/2009");
+
+
+
+		/*
+		 * System.out.println("la date de valeur est ===> " +
+		 * retrournerLaDateDeValeurDe(tr));
+		 * System.out.println("la date de valeur est ===> " +
+		 * retrournerLaDateDeValeurDe(tr1));
+		 * System.out.println("la date de valeur est ===> " +
+		 * retrournerLaDateDeValeurDe(tr2));
+		 * System.out.println("la date de valeur est ===> " +
+		 * retrournerLaDateDeValeurDe(tr3));
+		 */
+
+	}
+}

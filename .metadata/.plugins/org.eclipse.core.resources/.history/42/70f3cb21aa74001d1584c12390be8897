@@ -1,0 +1,18 @@
+package pn;
+
+import java.util.Date;
+
+public class Credit extends Operation{
+
+	public Credit(Date date, Date dateDeValeur, double montant) {
+		super(date, dateDeValeur, montant);
+		// TODO Module de remplacement de constructeur auto-généré
+	}
+	
+	public double crediterDe(double solde, double montant) {
+		return solde+montant;
+	}
+	
+	
+
+}

@@ -1,0 +1,4 @@
+#Fri Dec 09 10:17:58 CET 2022
+ruleset.uuid=4588c6e8-7e8a-4711-bd95-cb2f29a58276
+ruleset.engine=de
+ruleset.engine.version=1.40.8

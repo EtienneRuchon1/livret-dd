@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 03 - Contrôle sur le coût du voyage</name>
+  <uuid>bb9faba2-c184-43a4-9690-896c88f9511c</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[si
+	le prix total de 'la réservation' est plus grand que le budget maximum de 'la demande' 
+	et le motif du voyage de 'la réservation' est Loisir 
+alors
+	assigner l'etat de 'la réservation' à "Annulé";]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

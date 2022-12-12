@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="OD_AgenceVoyages" usingRuleflow="true" ruleflowName="RuleflowAgenceVoyages" targetRuleProjectName="Agence Voyage Regles">
+  <name>OD_AgenceVoyages</name>
+  <uuid>42030558-9d66-4d3c-8b8c-8f52dc42041c</uuid>
+  <referencedVariables variableName="demande" variableSetName="Variables Voyage">
+    <variableSet href="../règles/Variables%20Voyage.var#411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
+  </referencedVariables>
+  <referencedVariables variableName="resa" variableSetName="Variables Voyage" direction="IN_OUT">
+    <variableSet href="../règles/Variables%20Voyage.var#411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
+  </referencedVariables>
+  <ruleflow href="../règles/RuleflowAgenceVoyages.rfl#caadfcf8-f8cc-4e5d-add8-61c3dc0c81c7"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="OD_AgenceVoyages_extractor" validator="Valideur par défaut"/>
+  <targetRuleProject href="../../Agence%20Voyage%20Regles#06ee0306-f2af-4b77-8712-114f0ce79604"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

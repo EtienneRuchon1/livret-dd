@@ -1,0 +1,78 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>d51ee469-b548-47d2-85d3-7cd344c14971</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>pn.src.CodePromotionnel</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>CP01</name>
+            <getter language="irl"><![CDATA[
+            return "01";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CP02</name>
+            <getter language="irl"><![CDATA[
+            return "02";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CP03</name>
+            <getter language="irl"><![CDATA[
+            return "03";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>CP04</name>
+            <getter language="irl"><![CDATA[
+            return "04";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>pn.src.Reservation</businessName>
+        <method>
+            <name>appliquerReductionSurDistance</name>
+            <parameter type="int"/>
+            <parameter type="double"/>
+            <parameter type="double"/>
+            <parameter type="int"/>
+            <body language="arl"><![CDATA[
+            double coutTotal = distanceTotale * prixParKm;
+double reductionTotale = (distanceTotale / distanceReduction) * reduction;
+return coutTotal - reductionTotale;
+            ]]></body>
+        </method>
+        <method>
+            <name>comparerCodeVoyage</name>
+            <parameter type="pn.src.CodeVoyage"/>
+            <parameter type="pn.src.CodeVoyage"/>
+            <body language="arl"><![CDATA[
+            if(cv1.motif.equals(cv2.motif))
+return true;
+else
+return false;
+            ]]></body>
+        </method>
+    </class>
+    <class>
+        <businessName>pn.src.Utilitaire</businessName>
+        <method>
+            <name>calculPrixTrajet</name>
+            <parameter type="int"/>
+            <parameter type="double"/>
+            <body language="arl"><![CDATA[
+            double coutParKm = arg2;
+double prix = coutParKm * 100;
+double prixTot=prix; 
+while(arg1>100){
+	double nouveauPrix = prix - (prix * 0.05);
+	prixTot += nouveauPrix;
+	prix = nouveauPrix;
+	arg1 -= 100;
+}
+return pn.src.Utilitaire.arrondi(prixTot, 2);
+            ]]></body>
+        </method>
+    </class>
+</b2x:translation>

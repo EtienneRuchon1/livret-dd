@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 02 - Changement de la date de référence</name>
+  <uuid>b90af3f3-3dc9-4883-81ae-4801d5c57834</uuid>
+  <locale>fr_FR</locale>
+</ilog.rules.studio.model.brl:ActionRule>

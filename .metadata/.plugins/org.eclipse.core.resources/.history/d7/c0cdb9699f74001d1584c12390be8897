@@ -1,0 +1,18 @@
+package pn;
+
+import java.util.Date;
+
+public class Operation {
+	Date dateDeOperation;
+	Date dateDeValeurDeOperation;
+	int montant;
+	
+	public Operation() {};
+	
+	public Operation(Date dateDeOperation, Date dateDeValeurDeOperation,int montant) {
+		this.dateDeOperation = dateDeOperation;
+		this.dateDeValeurDeOperation = dateDeValeurDeOperation;
+		this.montant = montant;
+	}
+
+}

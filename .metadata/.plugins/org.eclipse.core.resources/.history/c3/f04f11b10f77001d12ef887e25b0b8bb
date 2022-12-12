@@ -1,0 +1,54 @@
+package pn;
+
+public class Transaction {
+	String date;
+	String dateDeLaTransactionPrecedente;
+	String test;
+	double montant;
+	boolean souscription;
+
+	public Transaction(String date, String dateDeLaTransactionPrecedente, double montant, boolean souscription) {
+		super();
+		this.date = date;
+		this.montant = montant;
+		this.souscription = souscription;
+		this.dateDeLaTransactionPrecedente = dateDeLaTransactionPrecedente;
+	}
+
+	public boolean isSouscription() {
+		return souscription;
+	}
+
+	public void setSouscription(boolean souscription) {
+		this.souscription = souscription;
+	}
+
+	public String getDateDeLaTransactionPrecedente() {
+		return dateDeLaTransactionPrecedente;
+	}
+
+	public void setDateDeLaTransactionPrecedente(String dateDeLaTransactionPrecedente) {
+		this.dateDeLaTransactionPrecedente = dateDeLaTransactionPrecedente;
+	}
+
+	public Transaction() {
+		super();
+	}
+
+	public String getDate() {
+		return date;
+	}
+
+	public void setDate(String date) {
+		this.date = date;
+	}
+
+	public double getMontant() {
+		return montant;
+	}
+
+	public void setMontant(double montant) {
+		this.montant = montant;
+	}
+
+}

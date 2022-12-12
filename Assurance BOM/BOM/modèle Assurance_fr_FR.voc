@@ -1,0 +1,65 @@
+# Vocabulary Properties
+uuid = 3b8edaa8-935f-4a1a-954c-bd465ca10d91
+
+# Term: cotisation
+@cotisation#gender = FEMALE
+
+# Term: cotisation HT globale
+@cotisation\ HT\ globale#gender = FEMALE
+
+# Term: cotisation de base HT
+@cotisation\ de\ base\ HT#gender = FEMALE
+
+# Term: cotisation technique
+@cotisation\ technique#gender = FEMALE
+
+# Term: cotisation theorique
+@cotisation\ theorique#gender = FEMALE
+
+# Term: garantie
+@garantie#gender = FEMALE
+
+# Term: surface
+@surface#gender = FEMALE
+
+# pn.Contrat
+pn.Contrat#concept.label = contrat
+pn.Contrat.codeBranche#phrase.action = assigner le code branche {this, PARTITIVE_ARTICLE} à {code branche}
+pn.Contrat.codeBranche#phrase.navigation = {code branche} {this, PARTITIVE_ARTICLE}
+pn.Contrat.codeButoir#phrase.action = assigner le code butoir {this, PARTITIVE_ARTICLE} à {code butoir}
+pn.Contrat.codeButoir#phrase.navigation = {code butoir} {this, PARTITIVE_ARTICLE}
+pn.Contrat.coefficientCommercial#phrase.action = assigner le coefficient commercial {this, PARTITIVE_ARTICLE} à {coefficient commercial}
+pn.Contrat.coefficientCommercial#phrase.navigation = {coefficient commercial} {this, PARTITIVE_ARTICLE}
+pn.Contrat.coefficientVol#phrase.action = assigner le coefficient vol {this, PARTITIVE_ARTICLE} à {coefficient vol}
+pn.Contrat.coefficientVol#phrase.navigation = {coefficient vol} {this, PARTITIVE_ARTICLE}
+pn.Contrat.exerciceTarification#phrase.action = assigner l'exercice de tarification {this, PARTITIVE_ARTICLE} à {exercice de tarification}
+pn.Contrat.exerciceTarification#phrase.navigation = {exercice de tarification} {this, PARTITIVE_ARTICLE}
+pn.Contrat.garanties#phrase.action = assigner les garanties {this, PARTITIVE_ARTICLE} à {garantie}
+pn.Contrat.garanties#phrase.navigation = {garantie} {this, PARTITIVE_ARTICLE}
+pn.Contrat.surface#phrase.action = assigner la surface {this, PARTITIVE_ARTICLE} à {surface}
+pn.Contrat.surface#phrase.navigation = {surface} {this, PARTITIVE_ARTICLE}
+
+# pn.EnsembleCotisation
+pn.EnsembleCotisation#concept.label = cotisation
+pn.EnsembleCotisation.cotisationBase#phrase.action = assigner  {this} de base à {cotisation base}
+pn.EnsembleCotisation.cotisationBase#phrase.navigation = {this} de base
+pn.EnsembleCotisation.cotisationBaseHT#phrase.action = assigner la cotisation de base HT {this, PARTITIVE_ARTICLE} à {cotisation de base HT}
+pn.EnsembleCotisation.cotisationBaseHT#phrase.navigation = {cotisation de base HT} {this, PARTITIVE_ARTICLE}
+pn.EnsembleCotisation.cotisationHTGlobale#phrase.action = assigner la cotisation HT globale {this, PARTITIVE_ARTICLE} à {cotisation HT globale}
+pn.EnsembleCotisation.cotisationHTGlobale#phrase.navigation = {cotisation HT globale} {this, PARTITIVE_ARTICLE}
+pn.EnsembleCotisation.cotisationTechnique#phrase.action = assigner la cotisation technique {this, PARTITIVE_ARTICLE} à {cotisation technique}
+pn.EnsembleCotisation.cotisationTechnique#phrase.navigation = {cotisation technique} {this, PARTITIVE_ARTICLE}
+pn.EnsembleCotisation.cotisationTheorique#phrase.action = assigner la cotisation theorique {this, PARTITIVE_ARTICLE} à {cotisation theorique}
+pn.EnsembleCotisation.cotisationTheorique#phrase.navigation = {cotisation theorique} {this, PARTITIVE_ARTICLE}
+pn.EnsembleCotisation.resumeCotisation()#phrase.navigation = le résumé de {this}
+
+# pn.Garantie
+pn.Garantie#concept.label = garantie
+pn.Garantie.code#phrase.action = assigner le code {this, PARTITIVE_ARTICLE} à {code}
+pn.Garantie.code#phrase.navigation = {code} {this, PARTITIVE_ARTICLE}
+pn.Garantie.nom#phrase.action = assigner le nom {this, PARTITIVE_ARTICLE} à {nom}
+pn.Garantie.nom#phrase.navigation = {nom} {this, PARTITIVE_ARTICLE}
+
+# pn.Utilitaire
+pn.Utilitaire#concept.label = utilitaire
+pn.Utilitaire.arrondi(double,int)#phrase.navigation = {0} arrondi à {1} décimale(s)

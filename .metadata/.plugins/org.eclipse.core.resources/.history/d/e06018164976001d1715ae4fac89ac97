@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 12 - Mise à jour de la date de reference</name>
+  <uuid>e6736ae8-2160-4919-b39b-91f261f068c9</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[alors 
+	affecter à 'la date de référence' la valeur le date de souscription de 'le compte épargne' convertie en date ; ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

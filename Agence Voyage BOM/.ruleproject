@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RuleProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore" xmlns:ilog.rules.studio.model.bom="http://ilog.rules.studio/model/bom.ecore" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore" xmlns:ilog.rules.studio.model.xom="http://ilog.rules.studio/model/xom.ecore" buildMode="DecisionEngine" migrationFlag="3">
+  <name>Agence Voyage BOM</name>
+  <uuid>7e2b7217-e2d0-4c7c-9049-1ed20318129e</uuid>
+  <outputLocation>sortie</outputLocation>
+  <categories>any</categories>
+  <paths xsi:type="ilog.rules.studio.model.xom:XOMPath" pathID="XOM">
+    <entries xsi:type="ilog.rules.studio.model.xom:LibraryXOMPathEntry" name="org.eclipse.jdt.launching.JRE_CONTAINER" url="file:org.eclipse.jdt.launching.JRE_CONTAINER" kind="LIBRARY" exported="false"/>
+    <entries xsi:type="ilog.rules.studio.model.xom:SystemXOMPathEntry" name="Agence Voyages XOM" url="platform:/Agence Voyages XOM" kind="JAVA_PROJECT" exported="true"/>
+  </paths>
+  <paths xsi:type="ilog.rules.studio.model.bom:BOMPath" pathID="BOM">
+    <entries xsi:type="ilog.rules.studio.model.bom:BOMEntry" name="modèle Agence" url="platform:/Agence Voyage BOM/BOM/modèle Agence.bom" origin="xom:/Agence Voyage BOM//Agence Voyages XOM"/>
+  </paths>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:SourceFolder">
+    <name>règles</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.bom:BOMFolder">
+    <name>BOM</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.rule:TemplateFolder">
+    <name>modèles</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.query:QueryFolder">
+    <name>requêtes</name>
+  </modelFolders>
+  <modelFolders xsi:type="ilog.rules.studio.model.base:ResourceFolder">
+    <name>ressources</name>
+  </modelFolders>
+  <modelFolders xsi:type="com.ibm.rules.studio.model.decisionservice:OperationFolder">
+    <name>déploiement</name>
+  </modelFolders>
+</ilog.rules.studio.model.base:RuleProject>

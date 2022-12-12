@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>regleBase</name>
+  <uuid>138f7e4a-1c3d-473b-8145-d370ede2f935</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[si
+ la couleur de 'la palette'    est "rouge"
+ 
+alors 
+	la couleur de 'la palette'   < = "bleue";
+	afficher "couleur passée à bleue" ;
+sinon  
+	la couleur de 'la palette'   < = "rouge";
+	afficher "couleur passée à rouge" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

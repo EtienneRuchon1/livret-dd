@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://localhost:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="2811020969" projectName="Assurance BOM" qualifiedName="modèle Assurance" sourceCS="2D36AB570C89A506C1CA2AF9CF7F3C97" targetCS="2811020969" type="B2XMapping" uuid="4804146a-649c-4b30-8a2f-2c3a3535c9c2"/>
+<entry baseType="BusinessObjectModel" checksum="1222537288" projectName="Assurance BOM" qualifiedName="modèle Assurance" sourceCS="68D0F74A39DB99E6F585B8443B57E18B" targetCS="1222537288" type="BusinessObjectModel" uuid="233a6f65-1f1f-457f-83fe-9bc5acfb04bf"/>
+<entry baseType="Resource" checksum="2170059227" projectName="Assurance BOM" qualifiedName="xom-libraries/Assurance XOM.zip" sourceCS="B0D1C6F32866D0789ACD864090B78067" targetCS="2170059227" type="Resource" uuid="xom-libraries/Assurance XOM.zip"/>
+<entry baseType="RuleProjectInfo" checksum="2272965003" projectName="Assurance BOM" qualifiedName="Assurance BOM" sourceCS="68513C7F27174EAA3167AD35555848DA" targetCS="2272965003" type="RuleProjectInfo" uuid="c700fd41-7d12-4bba-af28-578c6f5a0837"/>
+<entry baseType="Vocabulary" checksum="1222537288" projectName="Assurance BOM" qualifiedName="modèle Assurance_fr_FR" sourceCS="37F0D5532A9E7506A06CB0479D184602" targetCS="1222537288" type="Vocabulary" uuid="3b8edaa8-935f-4a1a-954c-bd465ca10d91"/>
+</teamserver>
+</teamservers>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Calcul de la cotisation technique</name>
+  <uuid>7371a6f3-c684-4b8d-a575-0f577c04d83b</uuid>
+</ilog.rules.studio.model.base:RulePackage>

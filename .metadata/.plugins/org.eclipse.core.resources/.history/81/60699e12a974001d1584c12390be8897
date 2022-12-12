@@ -1,0 +1,18 @@
+package pn;
+
+import java.util.Date;
+
+public class Debit extends Operation{
+
+	public Debit(Date date, Date dateDeValeur, double montant) {
+		super(date, dateDeValeur, montant);
+		
+	}
+	
+	public double debiterDe(double solde, double montant) {
+		return solde - montant;
+	}
+	
+	
+
+}

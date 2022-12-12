@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calcul de la cotisation de base HT</name>
+  <uuid>defbf0ea-5c9a-4c7c-90aa-8d5b4fb9334a</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[alors
+    assigner la cotisation de base HT de 'la cotisation'  à ( la cotisation technique de 'la cotisation'  * le coefficient commercial de 'le contrat' ) arrondi à 5 décimale ( s ) ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

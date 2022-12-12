@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="Configuration_deploiemnet_agence_voyage">
+  <name>Configuration deploiemnet agence voyage</name>
+  <uuid>f5006678-6ff0-4baf-b419-5b830be7c1d1</uuid>
+  <targets label="Connexion RES"/>
+  <targets label="Connexion locale"/>
+  <operations operationName="OD_AgenceVoyages">
+    <operation href="OD_AgenceVoyages.dop#42030558-9d66-4d3c-8b8c-8f52dc42041c"/>
+    <properties key="ruleset.version">
+      <value><![CDATA[1.0]]></value>
+    </properties>
+  </operations>
+  <versionPolicies label="Incrémenter les numéros de version mineure" ruleset="INCREMENT_MINOR" default="true" recurrent="true">
+    <description><![CDATA[Met à jour la version mineure pour chaque ensemble de règles. La nouvelle version devient disponible mais les versions précédentes sont conservées.]]></description>
+  </versionPolicies>
+  <versionPolicies label="Utiliser les numéros de version de base" recurrent="true">
+    <description><![CDATA[Utilise les numéros fournis dans la configuration de déploiement. Remplace la dernière version de chaque ensemble de règles par cette édition. Utilisé pour les correctifs logiciels ou le développement.]]></description>
+  </versionPolicies>
+  <versionPolicies label="L'utilisateur peut définir les numéros de version" ruleset="MANUAL" recurrent="true">
+    <description><![CDATA[Vous permet d'entrer vos propres numéros de version. Utilisé pour les correctifs logiciels ou les mises à jour d'une édition précédente.]]></description>
+  </versionPolicies>
+</com.ibm.rules.studio.model.decisionservice:Deployment>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 05 - Calcul de l'intérêt après changement de taux</name>
+  <uuid>77880882-3d80-4c5e-abf9-1bacb5eaad71</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[définitions
+    soit 'le nombre de quizaines après le changement de taux' étant nombre de quinzaines entre 'la date de changement de taux' et 'la date de valeur de la transaction en cours'  ;
+alors
+    ajouter ( ( 'le nombre de quizaines après le changement de taux' * 'le taux' * le solde de 'le compte épargne' / ( 100 * 24 ) ) + 'les intérêts avant le changement de taux' ) aux intérêts ;
+    assigner les intérêts de 'le compte épargne' à les intérêts ;
+	assigner le test de 'la transaction' à le test de 'la transaction'+"Je suis passé par la règle 05" ; 
+]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

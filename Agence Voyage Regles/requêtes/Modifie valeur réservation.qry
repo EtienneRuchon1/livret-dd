@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.query:Query xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore">
+  <name>Modifie valeur réservation</name>
+  <uuid>df070014-257c-4ed4-a3a1-646191cccfa0</uuid>
+  <definition><![CDATA[Trouver toutes les règles métier 
+	 tel que chaque règle métier modifie la valeur de l'etat de 'la réservation' ]]></definition>
+  <locale>fr_FR</locale>
+</ilog.rules.studio.model.query:Query>

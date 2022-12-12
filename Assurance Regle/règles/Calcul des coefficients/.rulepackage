@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Calcul des coefficients</name>
+  <uuid>6b860de5-cad7-4651-8b0d-e9e507050407</uuid>
+</ilog.rules.studio.model.base:RulePackage>

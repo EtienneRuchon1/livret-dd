@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>RuleflowAgenceVoyages</name>
+  <uuid>caadfcf8-f8cc-4e5d-add8-61c3dc0c81c7</uuid>
+  <locale>fr_FR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_2">
+        <Actions Language="irl"><![CDATA[int i =0;]]>&#13;<![CDATA[
+while(i<demande.passagers.size()){]]>&#13;<![CDATA[
+	insert(demande.passagers.get(i));]]>&#13;<![CDATA[
+	i++;]]>&#13;<![CDATA[
+}]]></Actions>
+      </StartTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Calcul du parcours" Ordering="Default">
+        <InitialActions/>
+        <RuleList>
+          <Package Name="Calcul du parcours"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Détermination de l'état de la réservation" Ordering="Default">
+        <RuleList>
+          <Package Name="Détermination de l'état de la réservation"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Calcul remise" Ordering="Default">
+        <Select Dynamic="false"/>
+        <RuleList>
+          <Package Name="Calcul remise"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Contrôle données" Ordering="Default">
+        <InitialActions Language="bal"><![CDATA[assigner l'etat de 'la réservation' à "Validé"; ]]>&#13;<![CDATA[
+assigner la ville de depart de 'la réservation' à la ville de départ de 'la demande' ;]]>&#13;<![CDATA[
+assigner la ville d'arrivee de 'la réservation' à la ville d'arrivee de 'la demande' ;]]>&#13;<![CDATA[
+assigner le motif du voyage de 'la réservation' à Loisir ;]]>&#13;<![CDATA[
+assigner le code promo de 'la réservation' à Code Promo 01 ;]]>&#13;<![CDATA[
+calculer le voyage de la ville de depart de 'la réservation' vers la ville d'arrivee de 'la réservation' ;]]>&#13;<![CDATA[
+afficher "distance kilométrique = " + la distance kilométrique ;]]>&#13;<![CDATA[
+assigner le prix total de 'la réservation' à calcul du prix du trajet pour la distance kilométrique au cout par km de 0,25 € ;]]></InitialActions>
+        <RuleList>
+          <Package Name="Contrôle données"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_3">
+        <Actions Language="bal"><![CDATA[afficher le résumé de 'la réservation' ; ]]></Actions>
+      </StopTask>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="Calcul du parcours"/>
+      <TaskNode Identifier="node_1" Task="Détermination de l'état de la réservation"/>
+      <TaskNode Identifier="node_2" Task="task_2"/>
+      <TaskNode Identifier="node_3" Task="task_3"/>
+      <TaskNode Identifier="node_4" Task="Calcul remise"/>
+      <TaskNode Identifier="node_5" Task="Contrôle données"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_1" Source="node_0" Target="node_1">
+        <Conditions Language="bal"><![CDATA[la distance kilométrique est plus grand que 0 ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_2" Source="node_1" Target="node_4"/>
+      <Transition Identifier="transition_3" Source="node_4" Target="node_3"/>
+      <Transition Identifier="transition_4" Source="node_0" Target="node_3"/>
+      <Transition Identifier="transition_5" Source="node_2" Target="node_5"/>
+      <Transition Identifier="transition_6" Source="node_5" Target="node_0"/>
+      <Transition Identifier="transition_7" Source="node_5" Target="node_3">
+        <Conditions Language="bal"><![CDATA[l'etat de 'la réservation' est "Anomalie" ]]></Conditions>
+      </Transition>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="fr_FR">
+      <Data Name="node_2#height">21.0</Data>
+      <Data Name="node_4#width">102.0</Data>
+      <Data Name="node_1#height">82.80469</Data>
+      <Data Name="node_3#height">19.999987</Data>
+      <Data Name="node_0#height">68.103516</Data>
+      <Data Name="node_4#height">53.402344</Data>
+      <Data Name="node_5#name">node_5</Data>
+      <Data Name="node_2#name">node_0</Data>
+      <Data Name="transition_1#label">si la destination est joignable</Data>
+      <Data Name="node_5#height">53.402344</Data>
+      <Data Name="node_2#width">21.0</Data>
+      <Data Name="node_0#width">102.0</Data>
+      <Data Name="node_3#y">538.7129</Data>
+      <Data Name="node_4#x">92.67529</Data>
+      <Data Name="node_4#y">452.01172</Data>
+      <Data Name="node_5#x">113.51294</Data>
+      <Data Name="node_5#y">97.70117</Data>
+      <Data Name="node_5#width">102.0</Data>
+      <Data Name="node_0#x">51.0</Data>
+      <Data Name="node_0#y">208.4541</Data>
+      <Data Name="node_1#x">92.67529</Data>
+      <Data Name="node_1#y">333.9082</Data>
+      <Data Name="node_2#x">113.51294</Data>
+      <Data Name="node_2#y">10.5</Data>
+      <Data Name="node_3#x">92.67526</Data>
+      <Data Name="node_1#name">node_1</Data>
+      <Data Name="node_3#width">20.000004</Data>
+      <Data Name="node_4#name">node_4</Data>
+      <Data Name="node_1#width">116.70117</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_3#name">node_2</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

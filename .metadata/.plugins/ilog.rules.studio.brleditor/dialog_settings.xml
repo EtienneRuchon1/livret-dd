@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="completion_presenter_size">
+		<item value="328" key="size.height"/>
+		<item value="508" key="size.width"/>
+	</section>
+	<section name="completion_proposal_size">
+		<item value="1046" key="size.y"/>
+		<item value="355" key="size.x"/>
+	</section>
+</section>

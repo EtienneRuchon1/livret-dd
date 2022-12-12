@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="pn.src.Utilitaire"/>
+<fullyQualifiedTypeName name="pn.src.Passager"/>
+<fullyQualifiedTypeName name="pn.src.Demande"/>
+<fullyQualifiedTypeName name="pn.src.Reservation"/>
+<fullyQualifiedTypeName name="executionlocaleassurance.invocation.ODAssuranceExecution"/>
+<fullyQualifiedTypeName name="pn.EnsembleCotisation"/>
+<fullyQualifiedTypeName name="pn.CompteEpargne"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="pn.Transaction"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="executionlocalelivretdeveloppementdurable.invocation.ODInteretSurDeveloppementDurableExecution"/>
+</qualifiedTypeNameHistroy>

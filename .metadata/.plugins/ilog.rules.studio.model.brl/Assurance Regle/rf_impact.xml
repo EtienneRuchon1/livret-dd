@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="pn.EnsembleCotisation/resumeCotisation()/NAVIGATION#0">
+            <rule id="e69b0f2f-eeb0-4752-9d60-5083194b65ae"/>
+        </vocElt>
+        <vocElt id="pn.EnsembleCotisation">
+            <rule id="e69b0f2f-eeb0-4752-9d60-5083194b65ae"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="e69b0f2f-eeb0-4752-9d60-5083194b65ae">
+            <vocElt id="pn.EnsembleCotisation/resumeCotisation()/NAVIGATION#0"/>
+            <vocElt id="pn.EnsembleCotisation"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="ensembeCotisation">
+            <rule id="e69b0f2f-eeb0-4752-9d60-5083194b65ae"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="e69b0f2f-eeb0-4752-9d60-5083194b65ae">
+            <param id="ensembeCotisation"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="5bc2dafc-340e-4e18-aa59-303b6b022f57">
+            <rule id="e69b0f2f-eeb0-4752-9d60-5083194b65ae"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Assurance BOM/BOM/modèle Assurance_fr_FR.voc" id="3b8edaa8-935f-4a1a-954c-bd465ca10d91">
+            <rule id="e69b0f2f-eeb0-4752-9d60-5083194b65ae"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Assurance Regle/règles/RuleFlow Assurance.rfl" id="e69b0f2f-eeb0-4752-9d60-5083194b65ae"/>
+        <resource file="/Assurance Regle/règles/Variable Assurance.var" id="5bc2dafc-340e-4e18-aa59-303b6b022f57"/>
+    </resourceTable>
+</impactTables>

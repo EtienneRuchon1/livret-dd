@@ -1,0 +1,47 @@
+package pn;
+
+public class Transaction {
+	String date;
+	double montant;
+	boolean souscription;
+	
+	public Transaction(String date, double montant, boolean souscription) {
+		super();
+		this.date = date;
+		this.montant = montant;
+		this.souscription = souscription;
+	}
+
+
+	public boolean isSouscription() {
+		return souscription;
+	}
+
+
+	public void setSouscription(boolean souscription) {
+		this.souscription = souscription;
+	}
+
+
+	public Transaction(){
+		super();
+	}
+	
+	
+	public String getDate() {
+		return date;
+	}
+	public void setDate(String date) {
+		this.date = date;
+	}
+	
+	public double getMontant() {
+		return montant;
+	}
+	public void setMontant(double montant) {
+		this.montant = montant;
+	}
+
+	
+
+}

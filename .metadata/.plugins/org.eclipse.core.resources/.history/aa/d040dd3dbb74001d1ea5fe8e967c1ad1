@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Variable Interet Sur Developppement Durable</name>
+  <uuid>a24f7568-f5a0-42c9-b733-a2730c41e5ce</uuid>
+  <variables name="dateDebutSimulation" type="java.util.Date" initialValue="" verbalization="la date de début de simulation"/>
+  <variables name="dateChangementTaux" type="java.util.Date" initialValue="" verbalization="la date de changement de taux"/>
+  <variables name="listeDatesTransactions" type="java.util.Date" initialValue="" verbalization="la liste des dates de valeur des transaction"/>
+</ilog.rules.studio.model.base:VariableSet>

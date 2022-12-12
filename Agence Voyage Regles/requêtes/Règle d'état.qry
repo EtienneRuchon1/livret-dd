@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.query:Query xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.query="http://ilog.rules.studio/model/query.ecore">
+  <name>Règle d'état</name>
+  <uuid>7c350827-5bc7-4e63-81cb-645602b72826</uuid>
+  <definition><![CDATA[Trouver toutes les règles métier 
+	 tel que le nom du paquet de règles de chaque règle métier contient "état" ]]></definition>
+  <locale>fr_FR</locale>
+</ilog.rules.studio.model.query:Query>

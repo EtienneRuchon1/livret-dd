@@ -1,0 +1,106 @@
+# Vocabulary Properties
+uuid = 60a56afa-a987-4cbf-b816-1a3b6002be1c
+
+# Term: carte de réduction
+@carte\ de\ réduction#gender = FEMALE
+
+# Term: classe minimum
+@classe\ minimum#gender = FEMALE
+
+# Term: demande
+@demande#gender = FEMALE
+
+# Term: distance
+@distance#gender = FEMALE
+
+# Term: réservation
+@réservation#gender = FEMALE
+
+# Term: ville d'arrivee
+@ville\ d'arrivee#gender = FEMALE
+
+# Term: ville de depart
+@ville\ de\ depart#gender = FEMALE
+
+# Term: ville de départ
+@ville\ de\ départ#gender = FEMALE
+
+# pn.src.CodePromotionnel
+pn.src.CodePromotionnel#concept.label = pn.src.CodePromotionnel
+pn.src.CodePromotionnel.CP01#instance.documentation = Code Promo SNCF
+pn.src.CodePromotionnel.CP01#instance.label = Code Promo 01
+pn.src.CodePromotionnel.CP02#instance.documentation = Code Promo Agence
+pn.src.CodePromotionnel.CP02#instance.label = Code Promo 02
+pn.src.CodePromotionnel.CP03#instance.documentation = Code Promo Autre
+pn.src.CodePromotionnel.CP03#instance.label = Code Promo 03
+pn.src.CodePromotionnel.CP04#instance.documentation = Code Promo Test
+pn.src.CodePromotionnel.CP04#instance.label = Code Promo 04
+
+# pn.src.CodeVoyage
+pn.src.CodeVoyage#concept.label = code voyage
+pn.src.CodeVoyage.codePromo#phrase.action = assigner le code promo {this, PARTITIVE_ARTICLE} à {code promo}
+pn.src.CodeVoyage.codePromo#phrase.navigation = {code promo} {this, PARTITIVE_ARTICLE}
+pn.src.CodeVoyage.motif#phrase.navigation = {motif} {this, PARTITIVE_ARTICLE}
+pn.src.CodeVoyage.motifAutre#instance.label = Autre
+pn.src.CodeVoyage.motifLoisir#instance.label = Loisir
+pn.src.CodeVoyage.motifTravail#instance.label = Travail
+pn.src.CodeVoyage.points#phrase.action = assigner le points {this, PARTITIVE_ARTICLE} à {points}
+pn.src.CodeVoyage.points#phrase.navigation = {points} {this, PARTITIVE_ARTICLE}
+
+# pn.src.Demande
+pn.src.Demande#concept.label = demande
+pn.src.Demande.arrivee#phrase.action = assigner la ville d'arrivee {this, PARTITIVE_ARTICLE} à {ville d'arrivee}
+pn.src.Demande.arrivee#phrase.navigation = {ville d'arrivee} {this, PARTITIVE_ARTICLE}
+pn.src.Demande.budgetMax#phrase.action = assigner le budget maximum {this, PARTITIVE_ARTICLE} à {budget maximum}
+pn.src.Demande.budgetMax#phrase.navigation = {budget maximum} {this, PARTITIVE_ARTICLE}
+pn.src.Demande.classeMin#phrase.action = assigner la classe minimum {this, PARTITIVE_ARTICLE} à {classe minimum}
+pn.src.Demande.classeMin#phrase.navigation = {classe minimum} {this, PARTITIVE_ARTICLE}
+pn.src.Demande.depart#phrase.action = assigner la ville de départ {this, PARTITIVE_ARTICLE} à {ville de départ}
+pn.src.Demande.depart#phrase.navigation = {ville de départ} {this, PARTITIVE_ARTICLE}
+pn.src.Demande.nbCorresMax#phrase.action = assigner le nombre maximum de correspondances souhaité {this, PARTITIVE_ARTICLE} à {nombre maximum de correspondances souhaité}
+pn.src.Demande.nbCorresMax#phrase.navigation = {nombre maximum de correspondances souhaité} {this, PARTITIVE_ARTICLE}
+pn.src.Demande.passagers#phrase.action = assigner les passagers {this, PARTITIVE_ARTICLE} à {passager}
+pn.src.Demande.passagers#phrase.navigation = {passager} {this, PARTITIVE_ARTICLE}
+
+# pn.src.Passager
+pn.src.Passager#concept.label = passager
+pn.src.Passager.age#phrase.action = assigner l'age {this, PARTITIVE_ARTICLE} à {age}
+pn.src.Passager.age#phrase.navigation = {age} {this, PARTITIVE_ARTICLE}
+pn.src.Passager.carteReduction#phrase.navigation = {carte de réduction} du {this}
+pn.src.Passager.nom#phrase.action = assigner le nom {this, PARTITIVE_ARTICLE} à {nom}
+pn.src.Passager.nom#phrase.navigation = {nom} {this, PARTITIVE_ARTICLE}
+pn.src.Passager.prenom#phrase.action = assigner le prenom {this, PARTITIVE_ARTICLE} à {prenom}
+pn.src.Passager.prenom#phrase.navigation = {prenom} {this, PARTITIVE_ARTICLE}
+
+# pn.src.Reservation
+pn.src.Reservation#concept.label = réservation
+pn.src.Reservation.appliquerReductionSurDistance(int,double,double,int)#phrase.navigation = calcul du prix sur {0} avec un prix par Km de {1} € et une reduction de  {2} chaque  {3} Km
+pn.src.Reservation.codePromo#phrase.action = assigner le code promo {this, PARTITIVE_ARTICLE} à {code promo}
+pn.src.Reservation.codePromo#phrase.navigation = {code promo} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.comparerCodeVoyage(pn.src.CodeVoyage,pn.src.CodeVoyage)#phrase.navigation = {0} est égal à {1}
+pn.src.Reservation.coutParKm#phrase.action = assigner le cout kilométrique calculé {this, PARTITIVE_ARTICLE} à {cout kilométrique calculé}
+pn.src.Reservation.coutParKm#phrase.navigation = {cout kilométrique calculé} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.distance#phrase.action = assigner la distance {this, PARTITIVE_ARTICLE} à {distance}
+pn.src.Reservation.distance#phrase.navigation = {distance} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.etat#phrase.action = assigner l'etat {this, PARTITIVE_ARTICLE} à {etat}
+pn.src.Reservation.etat#phrase.navigation = {etat} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.motifVoyage#phrase.action = assigner le motif du voyage {this, PARTITIVE_ARTICLE} à {motif du voyage}
+pn.src.Reservation.motifVoyage#phrase.navigation = {motif du voyage} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.nbCorrespondances#phrase.action = assigner le nombre de correspondances calculé {this, PARTITIVE_ARTICLE} à {nombre de correspondances calculé}
+pn.src.Reservation.nbCorrespondances#phrase.navigation = {nombre de correspondances calculé} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.prixTotal#phrase.action = assigner le prix total {this, PARTITIVE_ARTICLE} à {prix total}
+pn.src.Reservation.prixTotal#phrase.navigation = {prix total} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.resumeReservation()#phrase.navigation = le résumé de {this}
+pn.src.Reservation.villeArrivee#phrase.action = assigner la ville d'arrivee {this, PARTITIVE_ARTICLE} à {ville d'arrivee}
+pn.src.Reservation.villeArrivee#phrase.navigation = {ville d'arrivee} {this, PARTITIVE_ARTICLE}
+pn.src.Reservation.villeDepart#phrase.action = assigner la ville de depart {this, PARTITIVE_ARTICLE} à {ville de depart}
+pn.src.Reservation.villeDepart#phrase.navigation = {ville de depart} {this, PARTITIVE_ARTICLE}
+
+# pn.src.Utilitaire
+pn.src.Utilitaire#concept.label = utilitaire
+pn.src.Utilitaire.arrondi(double,int)#phrase.navigation = {0} arrondi à {1} décimale(s)
+pn.src.Utilitaire.calculPrixTrajet(int,double)#phrase.navigation = calcul du prix du trajet pour {0} au cout par km de {1} €
+pn.src.Utilitaire.calculerVoyage(java.lang.String,java.lang.String)#phrase.action = calculer le voyage de {0} vers {1}
+pn.src.Utilitaire.dist#phrase.navigation = la distance kilométrique
+pn.src.Utilitaire.nbCorrespondances#phrase.action = assigner le nb correspondances à {nb correspondances}
+pn.src.Utilitaire.nbCorrespondances#phrase.navigation = le nombre de correspondances

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="SynchronizeViewSettings">
+		<item value="1670595516709" key="lastactiveparticipant_sec_id"/>
+		<item value="ilog.rules.synchronization.eclipseui.syncparticipant" key="lastactiveparticipant_id"/>
+		<item value="false" key="linkWithEditor"/>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1670595516709">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1669987904447">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+			<item value="2" key="org.eclipse.team.ui.P_SYNCVIEWPAGE_MODE"/>
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1669988435029">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+			<item value="2" key="org.eclipse.team.ui.P_SYNCVIEWPAGE_MODE"/>
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1670595405877">
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1670594620839">
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1670595461439">
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1669987855813">
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1669977876143">
+			<item value="org.eclipse.team.ui.modelprovider_compressedfolders" key="org.eclipse.team.ui.P_LAST_MODELPROVIDER"/>
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1670594085806">
+		</section>
+		<section name="ilog.rules.synchronization.eclipseui.syncparticipant.1669898549139">
+		</section>
+	</section>
+	<section name="SynchronizeWizard">
+		<item value="ilog.rules.synchronization.eclipseui.teamConfigWizard" key="org.eclipse.team.uiGlobalRefreshWizardSelectionPage.default_selection"/>
+	</section>
+</section>

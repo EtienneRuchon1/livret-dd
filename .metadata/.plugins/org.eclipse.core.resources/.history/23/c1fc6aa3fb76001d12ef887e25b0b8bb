@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Interêt changement de taux</name>
+  <uuid>a2646273-0ccf-4bfc-9082-4f2ad7f7cbde</uuid>
+  <variables name="interet" type="java.lang.String" initialValue="" verbalization="myVar"/>
+</ilog.rules.studio.model.base:VariableSet>

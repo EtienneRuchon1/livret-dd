@@ -1,0 +1,15 @@
+# Vocabulary Properties
+uuid = 2ef37b10-7218-4f22-af2c-738e45848638
+
+# Term: couleur
+@couleur#gender = FEMALE
+
+# Term: palette de base
+@palette\ de\ base#gender = FEMALE
+
+# src.pn.PaletteBase
+src.pn.PaletteBase#concept.label = palette de base
+src.pn.PaletteBase.SetToBlue()#phrase.action = SetToBlue {this}
+src.pn.PaletteBase.col#phrase.action = la couleur {this, PARTITIVE_ARTICLE} <= {couleur}
+src.pn.PaletteBase.col#phrase.navigation = {couleur} {this, PARTITIVE_ARTICLE}
+src.pn.PaletteBase.setToRouge()#phrase.action = setToRouge {this}

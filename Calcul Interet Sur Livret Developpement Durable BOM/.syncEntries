@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://localhost:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="1864532397" projectName="Calcul Interet Sur Livret Developpement Durable BOM" qualifiedName="modèle Calcul Interet Sur Developpement Durable" sourceCS="DC0B4B7165FD94F4C225AE9413F1E8C0" targetCS="1864532397" type="B2XMapping" uuid="b9b634db-26bc-48a2-bca2-8078adfe5ac9"/>
+<entry baseType="BusinessObjectModel" checksum="1864532397" projectName="Calcul Interet Sur Livret Developpement Durable BOM" qualifiedName="modèle Calcul Interet Sur Developpement Durable" sourceCS="E282455EC8EFBDFEB676F03CCCE292C2" targetCS="1864532397" type="BusinessObjectModel" uuid="99e3dc14-30a5-4113-a43d-52f707bf1837"/>
+<entry baseType="Resource" checksum="736525164" projectName="Calcul Interet Sur Livret Developpement Durable BOM" qualifiedName="xom-libraries/Calcul Interet Sur Livret Developpement Durable XOM.zip" sourceCS="60B5117553D2E60BE0D8D6A1A81CC864" targetCS="736525164" type="Resource" uuid="xom-libraries/Calcul Interet Sur Livret Developpement Durable XOM.zip"/>
+<entry baseType="RuleProjectInfo" checksum="775861326" projectName="Calcul Interet Sur Livret Developpement Durable BOM" qualifiedName="Calcul Interet Sur Livret Developpement Durable BOM" sourceCS="2EFB71E11AB03F670CCA3DF53C214F55" targetCS="775861326" type="RuleProjectInfo" uuid="c16d40c5-3646-433b-b5e5-0924b4b3555e"/>
+<entry baseType="Vocabulary" checksum="1864532397" projectName="Calcul Interet Sur Livret Developpement Durable BOM" qualifiedName="modèle Calcul Interet Sur Developpement Durable_fr_FR" sourceCS="C155A4BBC4C85A9A73964ECC0380B6D4" targetCS="1864532397" type="Vocabulary" uuid="c6192a77-8aa8-44d5-bacf-63a3eaec087c"/>
+</teamserver>
+</teamservers>

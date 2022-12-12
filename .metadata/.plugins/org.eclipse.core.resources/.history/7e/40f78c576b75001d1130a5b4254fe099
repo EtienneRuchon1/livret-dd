@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 02 - Initialisation du taux</name>
+  <uuid>a117ef48-5c35-464a-a107-4ed5f8c306e5</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

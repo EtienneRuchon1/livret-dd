@@ -1,0 +1,51 @@
+package pn;
+
+public class CompteEpargne {
+	
+	double solde;
+	double interet;
+	double interetsCumules;
+
+	public String getDateDeSouscription() {
+		return dateDeSouscription;
+	}
+	public void setDateDeSouscription(String dateDeSouscription) {
+		this.dateDeSouscription = dateDeSouscription;
+	}
+	public CompteEpargne() {
+		super();
+		// TODO Module de remplacement de constructeur auto-généré
+	}
+
+	public CompteEpargne(double solde, double interet, double interetsCumules) {
+		super();
+		this.solde = solde;
+		this.interet = interet;
+		this.interetsCumules = interetsCumules;
+		this.dateDeSouscription = dateDeSouscription;
+	}
+	public double getSolde() {
+		return solde;
+	}
+	public void setSolde(double solde) {
+		this.solde = solde;
+	}
+	public double getInteret() {
+		return interet;
+	}
+	public void setInteret(double interet) {
+		this.interet = interet;
+	}
+	public double getInteretsCumules() {
+		return interetsCumules;
+	}
+	public void setInteretsCumules(double interetsCumules) {
+		this.interetsCumules = interetsCumules;
+	}
+	
+	public String resumeCompteEpargne() {
+		return "**** " + "le solde du compte épargne est ==> " + this.getSolde();
+	}
+	
+
+}

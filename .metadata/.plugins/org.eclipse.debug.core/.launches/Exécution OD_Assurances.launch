@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/Assurance Regle/déploiement/OD_Assurance"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="contrat" value="function pn.Contrat get_contrat_value()"/>
+<mapEntry key="ensembeCotisation" value="function pn.EnsembleCotisation get_ensembeCotisation_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="contrat" value="pn.Contrat result = new pn.Contrat(0.8, 1.1, &quot;B1&quot;, 200.0, null, 0.03, 1.00200, 0.970, 2020);&#10;pn.Garantie g1 = new pn.Garantie(&quot;Déteriorations Immobilières&quot;,&quot;029&quot;);&#10;result.garanties.add(g1);&#10;return result;"/>
+<mapEntry key="ensembeCotisation" value="pn.EnsembleCotisation result = new pn.EnsembleCotisation();&#10;&#10;return result;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="contrat" value="contrat"/>
+<mapEntry key="ensembeCotisation" value="ensembeCotisation"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="contrat" value=""/>
+<mapEntry key="ensembeCotisation" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="contrat" value="2"/>
+<mapEntry key="ensembeCotisation" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Assurance Regle"/>
+<listEntry value="/Assurance Regle"/>
+<listEntry value="/Assurance Regle/déploiement/OD_Assurance.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Assurance Regle"/>
+</launchConfiguration>

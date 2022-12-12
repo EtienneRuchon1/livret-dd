@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 01 - Calcul du nombre de quinzaines entre deux évènements</name>
+  <uuid>3afe8d8e-61e4-4ebf-9992-43541792847a</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[
+]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

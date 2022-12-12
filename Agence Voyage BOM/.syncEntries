@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://localhost:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="148619659" projectName="Agence Voyage BOM" qualifiedName="modèle Agence" sourceCS="85EA6C76948CDFEC72D9E285CD83A5DD" targetCS="148619659" type="B2XMapping" uuid="d51ee469-b548-47d2-85d3-7cd344c14971"/>
+<entry baseType="BusinessObjectModel" checksum="148619659" projectName="Agence Voyage BOM" qualifiedName="modèle Agence" sourceCS="0B04466E7775D8845BE68220DF13FD96" targetCS="148619659" type="BusinessObjectModel" uuid="d7c0df55-0ba6-4837-9018-7a7aec83912a"/>
+<entry baseType="Resource" checksum="1586307798" projectName="Agence Voyage BOM" qualifiedName="DomaineCodePromo.xlsx" sourceCS="177F22F8320932B7A54335EDAF8428C7" targetCS="1586307798" type="Resource" uuid="DomaineCodePromo.xlsx"/>
+<entry baseType="Resource" checksum="2113100243" projectName="Agence Voyage BOM" qualifiedName="xom-libraries/Agence Voyages XOM.zip" sourceCS="3EEFA77FA6D7F55187957E2D5D1EF6DD" targetCS="2113100243" type="Resource" uuid="xom-libraries/Agence Voyages XOM.zip"/>
+<entry baseType="RuleProjectInfo" checksum="4077373173" projectName="Agence Voyage BOM" qualifiedName="Agence Voyage BOM" sourceCS="4219085926A81CA4556B6BCDF33E3A9C" targetCS="4077373173" type="RuleProjectInfo" uuid="7e2b7217-e2d0-4c7c-9049-1ed20318129e"/>
+<entry baseType="Vocabulary" checksum="148619659" projectName="Agence Voyage BOM" qualifiedName="modèle Agence_fr_FR" sourceCS="B63D592ED09C026A368A923136852B46" targetCS="148619659" type="Vocabulary" uuid="60a56afa-a987-4cbf-b816-1a3b6002be1c"/>
+</teamserver>
+</teamservers>

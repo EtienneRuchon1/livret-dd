@@ -1,0 +1,17 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/ReglesCouleurs//CouleurXOM"
+property uuid "69e0bc46-7ca7-411e-ad53-f945dc45a259"
+package src.pn;
+
+
+public class PaletteBase
+        property automaticVariable "true"
+{
+    public string col;
+    public PaletteBase(string arg);
+    public PaletteBase();
+    public void SetToBlue();
+    public void setToRouge();
+}
+

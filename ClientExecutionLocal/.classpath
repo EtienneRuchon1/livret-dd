@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/j2ee_connector-1_5-fr.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/jrules-res-execution.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/mina-core-2.0.20.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/slf4j-simple-1.5.8.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/IBM/IBMIMShared/plugins/com.ibm.rules.engine_8.10.2.0/lib/jrules-engine.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/jdom-1.1.2.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/poi-4.0.1.jar"/>
+	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/commons-compress-1.18.jar"/>
+	<classpathentry exported="true" kind="src" path="/Agence Voyages XOM"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

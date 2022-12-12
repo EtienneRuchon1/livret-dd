@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calcul de la cotisation technique</name>
+  <uuid>7ecb79aa-a799-4413-b2a5-de3011627351</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[alors
+    assigner la cotisation technique de 'la cotisation'  à ( la cotisation theorique de 'la cotisation'  * le coefficient vol de 'le contrat' ) arrondi à 5 décimale ( s ) ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

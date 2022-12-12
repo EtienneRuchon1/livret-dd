@@ -1,0 +1,52 @@
+package pn;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CompteEpargne {
+	
+
+
+
+	private List<Transaction> transactions = new ArrayList<Transaction>();
+	private double solde;
+	
+	public CompteEpargne(List<Transaction> operations, double solde, double interet) {
+		super();
+		this.transactions = operations;
+		this.solde = solde;
+	}
+	
+
+	
+
+	public double getSolde() {
+		return solde;
+	}
+
+
+	public void setSolde(double solde) {
+		this.solde = solde;
+	}
+
+
+
+	public List<Transaction> getOperations() {
+		return transactions;
+	}
+
+
+	public void setOperations(List<Transaction> operations) {
+		this.transactions = operations;
+	}
+	
+	public void debiterDe(int montant) {
+		this.solde = this.solde - montant;
+	}
+	
+	public void crediterDe(int montant) {
+		this.solde = this.solde + montant;
+	}
+	
+
+}

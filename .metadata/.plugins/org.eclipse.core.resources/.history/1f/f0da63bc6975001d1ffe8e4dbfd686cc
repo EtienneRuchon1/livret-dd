@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Paquet 01 - Spuscription</name>
+  <uuid>49b60fe1-51ed-4d17-b73c-a49de59ffe4e</uuid>
+</ilog.rules.studio.model.base:RulePackage>

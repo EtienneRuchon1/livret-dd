@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Calcul de la cotisation théorique</name>
+  <uuid>39bb6ec7-4969-4ada-8e85-f071027946b5</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[si
+    'la cotisation' de base  est plus petit que 'seuil de cotisation'
+alors
+    assigner la cotisation theorique de 'la cotisation' à 'seuil de cotisation' ;
+sinon
+    assigner la cotisation theorique de 'la cotisation'  à 'la cotisation' de base ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

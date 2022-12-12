@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 07 - Changement de taux</name>
+  <uuid>569fb9cd-4b5e-4ee7-955c-83eca014227f</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[alors
+    affecter à 'taux de rémunération' la valeur 1,25 ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

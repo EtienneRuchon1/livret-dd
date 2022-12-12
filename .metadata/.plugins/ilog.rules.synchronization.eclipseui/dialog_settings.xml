@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="TeamServerConfigurationWizard">
+		<list key="ilog.rules.synchronization.eclipseui.STORE_URL">
+			<item value="http://localhost:9090/decisioncenter"/>
+		</list>
+		<list key="ilog.rules.synchronization.eclipseui.STORE_DATA_SOURCES">
+			<item value=""/>
+		</list>
+		<list key="ilog.rules.synchronization.eclipseui.STORE_USER_NAMES">
+			<item value="rtsAdmin"/>
+		</list>
+	</section>
+</section>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>RuleFlow Assurance</name>
+  <uuid>e69b0f2f-eeb0-4752-9d60-5083194b65ae</uuid>
+  <locale>fr_FR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0">
+        <Actions Language="irl"><![CDATA[int i =0;]]>&#13;<![CDATA[
+System.out.println(contrat.garanties.size());]]>&#13;<![CDATA[
+while(i<contrat.garanties.size()){]]>&#13;<![CDATA[
+	insert(contrat.garanties.get(i));]]>&#13;<![CDATA[
+	i++;]]>&#13;<![CDATA[
+}]]></Actions>
+      </StartTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Initialisation des coefficient" Ordering="Default">
+        <RuleList>
+          <Package Name="Initialisation des coefficient"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Calcul des coefficients" Ordering="Default">
+        <RuleList>
+          <Package Name="Calcul des coefficients"/>
+        </RuleList>
+      </RuleTask>
+      <SubflowTask Identifier="task_2" Uuid="7a74247a-94ca-4b08-934c-a5eb6af05578"/>
+      <StopTask Identifier="task_1">
+        <Actions Language="bal"><![CDATA[afficher le résumé de 'la cotisation' ; ]]></Actions>
+      </StopTask>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="task_1"/>
+      <TaskNode Identifier="node_2" Task="Initialisation des coefficient"/>
+      <TaskNode Identifier="node_3" Task="Calcul des coefficients"/>
+      <TaskNode Identifier="node_4" Task="task_2"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_1" Source="node_0" Target="node_2"/>
+      <Transition Identifier="transition_2" Source="node_2" Target="node_3"/>
+      <Transition Identifier="transition_0" Source="node_3" Target="node_4"/>
+      <Transition Identifier="transition_3" Source="node_4" Target="node_1"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="fr_FR">
+      <Data Name="node_2#height">68.103516</Data>
+      <Data Name="node_4#width">102.0</Data>
+      <Data Name="node_1#height">21.0</Data>
+      <Data Name="node_3#height">68.103516</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_4#height">68.103516</Data>
+      <Data Name="node_2#name">node_2</Data>
+      <Data Name="node_2#width">104.70117</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_3#y">223.15527</Data>
+      <Data Name="node_4#x">52.350586</Data>
+      <Data Name="node_4#y">341.2588</Data>
+      <Data Name="node_0#x">52.350586</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_1#x">52.350586</Data>
+      <Data Name="node_1#y">435.81055</Data>
+      <Data Name="node_2#x">52.350586</Data>
+      <Data Name="node_2#y">105.05176</Data>
+      <Data Name="node_3#x">52.350586</Data>
+      <Data Name="node_1#name">node_2</Data>
+      <Data Name="node_3#width">102.0293</Data>
+      <Data Name="node_4#name">node_4</Data>
+      <Data Name="node_1#width">21.000004</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_3#name">node_3</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+org.eclipse.jdt.core.classpathVariable.IBM_DC_HOME=C\:/IBM/ODM8102
+org.eclipse.jdt.core.classpathVariable.IBM_DS_HOME=C\:/IBM/ODM8102
+org.eclipse.jdt.core.classpathVariable.ILOG_BR_HOME=C\:/IBM/ODM8102
+org.eclipse.jdt.core.classpathVariable.ILOG_BR_STUDIO_HOME=C\:/IBM/ODM8102/studio
+org.eclipse.jdt.core.classpathVariable.ILOG_EXECUTION_SERVER_HOME=C\:/IBM/ODM8102/executionserver
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode=enabled
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+org.eclipse.jdt.core.compiler.compliance=1.8
+org.eclipse.jdt.core.compiler.problem.assertIdentifier=error
+org.eclipse.jdt.core.compiler.problem.enumIdentifier=error
+org.eclipse.jdt.core.compiler.source=1.8

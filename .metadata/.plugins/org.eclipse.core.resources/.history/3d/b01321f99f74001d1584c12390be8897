@@ -1,0 +1,12 @@
+package pn;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CompteEpargne {
+	
+	private List<Double> montantsDesDébits = new ArrayList<Double>();
+	private List<Double> montantsDesCredits = new ArrayList<Double>();
+
+
+}

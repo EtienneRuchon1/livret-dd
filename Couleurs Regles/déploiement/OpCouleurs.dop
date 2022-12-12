@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="OpCouleurs" usingRuleflow="true" ruleflowName="rf" targetRuleProjectName="Couleurs Regles">
+  <name>OpCouleurs</name>
+  <uuid>d6227354-14e0-46d3-b103-8050447038f1</uuid>
+  <referencedVariables variableName="palette" variableSetName="paramètres" direction="IN_OUT">
+    <variableSet href="../règles/paramètres.var#783843dc-2360-4fd5-a79b-4f66f4281830"/>
+  </referencedVariables>
+  <ruleflow href="../règles/rf.rfl#f54c1189-42ef-40cc-9578-3ba2dfc0bcc1"/>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="OpCouleurs_extractor" validator="Valideur par défaut"/>
+  <targetRuleProject href="../../Couleurs%20Regles#164a3ed4-c14d-4028-ad29-bfdd5f5225aa"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

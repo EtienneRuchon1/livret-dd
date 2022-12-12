@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.ruleflow:RuleFlow xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.ruleflow="http://ilog.rules.studio/model/ruleflow.ecore">
+  <name>RuleFlowInteretSurDeveloppementDurable</name>
+  <uuid>78c1ba72-4f98-4ed1-980f-ef687403cfde</uuid>
+  <locale>fr_FR</locale>
+  <categories>any</categories>
+  <rfModel>
+<Ruleflow xmlns="http://schemas.ilog.com/Rules/7.0/Ruleflow">
+  <Body>
+    <TaskList>
+      <StartTask Identifier="task_0">
+        <Actions Language="bal"><![CDATA[affecter à 'la date de changement de taux' la valeur 01/08/2009 00:00:00 ;]]>&#13;<![CDATA[
+affecter à 'le taux de rémunération' la valeur 1,75 ;]]></Actions>
+      </StartTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Calcul de la date de valeur" Ordering="Default">
+        <RuleList>
+          <Package Name="Appliquer la date de valeur d'une transaction"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Calcul de l'intérêt avant le changement de taux" Ordering="Default">
+        <RuleList>
+          <Package Name="Calcul de l'intérêt avant le changement de taux"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Calcul de l'intérêt pendant le changement de taux" Ordering="Default">
+        <RuleList>
+          <Package Name="Calcul de l'intérêt pendant le changement de taux"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Calcul de l'intérêt après le changement de taux" Ordering="Default">
+        <RuleList>
+          <Package Name="Calcul de l'intérêt après le changement de taux"/>
+        </RuleList>
+      </RuleTask>
+      <RuleTask ExecutionMode="Fastpath" ExitCriteria="None" Identifier="Effectuer la transaction" Ordering="Default">
+        <RuleList>
+          <Package Name="Effectuer la transaction"/>
+        </RuleList>
+      </RuleTask>
+      <StopTask Identifier="task_3"/>
+    </TaskList>
+    <NodeList>
+      <TaskNode Identifier="node_0" Task="task_0"/>
+      <TaskNode Identifier="node_1" Task="Calcul de la date de valeur"/>
+      <BranchNode Identifier="node_6"/>
+      <BranchNode Identifier="node_4"/>
+      <TaskNode Identifier="node_9" Task="task_3"/>
+      <TaskNode Identifier="node_10" Task="Calcul de l'intérêt avant le changement de taux"/>
+      <TaskNode Identifier="node_11" Task="Calcul de l'intérêt pendant le changement de taux"/>
+      <TaskNode Identifier="node_3" Task="Calcul de l'intérêt après le changement de taux"/>
+      <TaskNode Identifier="node_5" Task="Effectuer la transaction"/>
+    </NodeList>
+    <TransitionList>
+      <Transition Identifier="transition_0" Source="node_0" Target="node_1"/>
+      <Transition Identifier="transition_10" Source="node_6" Target="node_11">
+        <Conditions Language="bal"><![CDATA['la date de changement de taux' est après 'la date de valeur de la transaction précédente' et avant 'la date de valeur de la transaction en cours' ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_11" Source="node_10" Target="node_4"/>
+      <Transition Identifier="transition_15" Source="node_11" Target="node_4"/>
+      <Transition Identifier="transition_2" Source="node_6" Target="node_3"/>
+      <Transition Identifier="transition_3" Source="node_3" Target="node_4"/>
+      <Transition Identifier="transition_9" Source="node_6" Target="node_10">
+        <Conditions Language="bal"><![CDATA['la date de changement de taux' est après 'la date de valeur de la transaction en cours' ]]></Conditions>
+      </Transition>
+      <Transition Identifier="transition_5" Source="node_4" Target="node_5"/>
+      <Transition Identifier="transition_6" Source="node_5" Target="node_9"/>
+      <Transition Identifier="transition_1" Source="node_1" Target="node_6"/>
+    </TransitionList>
+  </Body>
+  <Resources>
+    <ResourceSet Locale="fr_FR">
+      <Data Name="node_4#width">36.414215</Data>
+      <Data Name="node_1#height">112.20703</Data>
+      <Data Name="node_3#height">112.20703</Data>
+      <Data Name="node_0#height">21.0</Data>
+      <Data Name="node_4#height">36.414185</Data>
+      <Data Name="node_9#x">217.07031</Data>
+      <Data Name="node_9#width">21.000006</Data>
+      <Data Name="node_9#y">711.5471</Data>
+      <Data Name="node_5#name">node_5</Data>
+      <Data Name="node_10#label">Calcul de l'intérêt avant le changement de taux</Data>
+      <Data Name="node_6#height">36.4142</Data>
+      <Data Name="node_5#height">68.103516</Data>
+      <Data Name="node_10#height">112.20703</Data>
+      <Data Name="transition_10#label">le taux change entre les deux transactions</Data>
+      <Data Name="node_11#height">126.9082</Data>
+      <Data Name="node_9#height">21.000021</Data>
+      <Data Name="node_10#x">54.023438</Data>
+      <Data Name="node_10#y">383.07532</Data>
+      <Data Name="node_11#x">380.1172</Data>
+      <Data Name="node_0#width">21.0</Data>
+      <Data Name="node_11#y">383.07532</Data>
+      <Data Name="node_4#x">217.07027</Data>
+      <Data Name="node_3#y">383.07532</Data>
+      <Data Name="node_4#y">514.7365</Data>
+      <Data Name="node_5#x">217.07031</Data>
+      <Data Name="node_6#x">217.07033</Data>
+      <Data Name="node_5#y">616.99536</Data>
+      <Data Name="node_6#y">251.41412</Data>
+      <Data Name="node_5#width">102.0</Data>
+      <Data Name="node_0#x">217.07031</Data>
+      <Data Name="node_11#name">node_11</Data>
+      <Data Name="node_0#y">10.5</Data>
+      <Data Name="node_1#x">217.07031</Data>
+      <Data Name="node_1#y">127.103516</Data>
+      <Data Name="node_3#x">217.07031</Data>
+      <Data Name="transition_9#label">le taux n'a pas encore changé</Data>
+      <Data Name="node_1#name">node_1</Data>
+      <Data Name="node_10#name">node_10</Data>
+      <Data Name="node_11#width">108.046875</Data>
+      <Data Name="node_3#width">108.046875</Data>
+      <Data Name="node_4#name">node_6</Data>
+      <Data Name="node_1#width">110.71289</Data>
+      <Data Name="node_6#name">node_6</Data>
+      <Data Name="node_9#name">node_2</Data>
+      <Data Name="node_0#name">node_0</Data>
+      <Data Name="node_6#width">36.414215</Data>
+      <Data Name="node_10#width">108.046875</Data>
+      <Data Name="node_3#name">node_3</Data>
+    </ResourceSet>
+  </Resources>
+  <Properties/>
+</Ruleflow></rfModel>
+</ilog.rules.studio.model.ruleflow:RuleFlow>

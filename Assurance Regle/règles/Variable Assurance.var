@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Variable Assurance</name>
+  <uuid>5bc2dafc-340e-4e18-aa59-303b6b022f57</uuid>
+  <variables name="ensembeCotisation" type="pn.EnsembleCotisation" initialValue="" verbalization="la cotisation"/>
+  <variables name="coefBase" type="double" initialValue="" verbalization="coefficient de base"/>
+  <variables name="seuilCotisation" type="double" initialValue="" verbalization="seuil de cotisation"/>
+  <variables name="coefSociete" type="double" initialValue="" verbalization="coefficient de société"/>
+  <variables name="coefBonus" type="double" initialValue="" verbalization="coefficient bonus"/>
+  <variables name="contrat" type="pn.Contrat" initialValue="" verbalization="le contrat"/>
+  <variables name="ExerciceTarification" type="int" initialValue="" verbalization="exercice de tarification"/>
+</ilog.rules.studio.model.base:VariableSet>

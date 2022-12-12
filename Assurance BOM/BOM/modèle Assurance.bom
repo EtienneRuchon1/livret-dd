@@ -1,0 +1,64 @@
+
+property loadGetterSetterAsProperties "true"
+property origin "xom:/Assurance BOM//Assurance XOM"
+property uuid "233a6f65-1f1f-457f-83fe-9bc5acfb04bf"
+package pn;
+
+
+public class Contrat
+{
+    public string codeBranche;
+    public double codeButoir;
+    public double coefficientCommercial;
+    public double coefficientVol;
+    public int exerciceTarification;
+    public java.util.List garanties domain 0,* class pn.Garantie;
+    public double surface;
+    public Contrat(double arg1, 
+        double arg2, 
+        string arg3, 
+        double arg4, 
+        java.util.List arg5 domain 0,* class pn.Garantie, 
+        double arg6, 
+        double arg7, 
+        double arg8)
+                property deprecated "true";
+    public Contrat(double arg1, 
+        double arg2, 
+        string arg3, 
+        double arg4, 
+        java.util.List arg5 domain 0,* class pn.Garantie, 
+        double arg6, 
+        double arg7, 
+        double arg8, 
+        int arg9);
+    public Contrat();
+}
+
+public class EnsembleCotisation
+{
+    public double cotisationBase;
+    public double cotisationBaseHT;
+    public double cotisationHTGlobale;
+    public double cotisationTechnique;
+    public double cotisationTheorique;
+    public EnsembleCotisation(double arg1, double arg2, double arg3, double arg4, double arg5);
+    public EnsembleCotisation();
+    public string resumeCotisation();
+}
+
+public class Garantie
+        property automaticVariable "true"
+{
+    public string code;
+    public string nom;
+    public Garantie(string arg1, string arg2);
+    public Garantie();
+}
+
+public class Utilitaire
+{
+    public Utilitaire();
+    public static double arrondi(double arg1, int arg2);
+}
+

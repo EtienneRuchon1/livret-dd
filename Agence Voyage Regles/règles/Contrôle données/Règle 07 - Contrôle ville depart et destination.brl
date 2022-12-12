@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 07 - Contrôle ville depart et destination</name>
+  <uuid>d7f5ac82-5ccd-41f6-afc0-357f1e157a25</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[si 
+	 la ville de départ de 'la demande' contient la ville d'arrivee de 'la demande' 
+alors assigner l'etat de 'la réservation' à "Anomalie" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

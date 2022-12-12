@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Calcul de la cotisation de base globale</name>
+  <uuid>e0d56597-6d5c-49d1-85bf-d01a212db1c8</uuid>
+</ilog.rules.studio.model.base:RulePackage>

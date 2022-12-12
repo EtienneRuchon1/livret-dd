@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 08 - Calcul de l'intérêt avant le changement de taux</name>
+  <uuid>c41afbe3-41dd-4bfc-83d2-e5cdf1569448</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[définitions
+    soit 'le nombre de quizaines entre deux transactions' étant nombre de quinzaines entre 'la date de valeur de la transaction précédente'  et 'la date de valeur de la transaction en cours' ;   
+alors 
+    ajouter ( ( 'le nombre de quizaines entre deux transactions'  * 'taux de rémunération'  * le solde de 'le compte épargne' / ( 100 * 24 )) ) aux intérêts ;
+    assigner les intérêts de 'le compte épargne' à les intérêts ;
+ ]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

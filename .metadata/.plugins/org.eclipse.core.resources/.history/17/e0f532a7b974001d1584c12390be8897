@@ -1,0 +1,80 @@
+package pn;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+
+public class CompteEpargne {
+	
+
+
+
+	private List<Transaction> transactions = new ArrayList<Transaction>();
+	private double solde;
+	private double taux;
+	private Date dateValeurSouscription;
+	
+	public CompteEpargne() {
+		
+	}
+	
+	public CompteEpargne(List<Transaction> transactions, double solde, double taux) {
+		super();
+		this.transactions = transactions;
+		this.solde = solde;
+		this.taux = taux;
+	}
+	
+	public CompteEpargne(double solde, Date datedateValeurSouscription) {
+		super();
+		this.solde = solde;
+		this.dateValeurSouscription = datedateValeurSouscription;
+	}
+	
+	public double getSolde() {
+		return solde;
+	}
+
+
+	public void setSolde(double solde) {
+		this.solde = solde;
+	}
+
+	public List<Transaction> getTransactions() {
+		return transactions;
+	}
+
+
+	public void setTransactions(List<Transaction> transactions) {
+		this.transactions = transactions;
+	}
+	
+	public void debiterDe(int montant) {
+		this.solde = this.solde - montant;
+	}
+	
+	public void crediterDe(int montant) {
+		this.solde = this.solde + montant;
+	}
+
+
+	public double getTaux() {
+		return taux;
+	}
+
+
+	public void setTaux(double taux) {
+		this.taux = taux;
+	}
+
+	public Date getDateValeurSouscription() {
+		return dateValeurSouscription;
+	}
+
+	public void setDateValeurSouscription(Date dateValeurSouscription) {
+		this.dateValeurSouscription = dateValeurSouscription;
+	}
+	
+	
+
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><teamservers>
+<teamserver>
+<target dataSource="" login="rtsAdmin" url="http://localhost:9090/decisioncenter"/>
+<entry baseType="B2XMapping" checksum="2469869143" projectName="Couleurs Regles" qualifiedName="modèle" sourceCS="441396A042C846E75FC79A19E91EB46C" targetCS="2469869143" type="B2XMapping" uuid="16672754-6810-41f1-bfa3-1effd911265b"/>
+<entry baseType="B2XMapping" checksum="2469869143" projectName="Couleurs Regles" qualifiedName="modèle" sourceCS="F1A607187E1DF0433D80E1BF6DD366AD" targetCS="2469869143" type="B2XMapping" uuid="26e14d9b-ad95-4872-93ef-3302a499a71e"/>
+<entry baseType="BRLRule" checksum="3146084962" projectName="Couleurs Regles" qualifiedName="regle2" sourceCS="83ADF0B16AB781AE01318816C9146042" targetCS="3146084962" type="BRLRule" uuid="a32b70a4-8469-4701-a4fa-830ea52190aa"/>
+<entry baseType="BRLRule" checksum="791221333" projectName="Couleurs Regles" qualifiedName="regleBase" sourceCS="EFB19372CB5D4C16DA9DC3D820961345" targetCS="791221333" type="BRLRule" uuid="138f7e4a-1c3d-473b-8145-d370ede2f935"/>
+<entry baseType="BusinessObjectModel" checksum="2469869143" projectName="Couleurs Regles" qualifiedName="modèle" sourceCS="FF6FC9DBF7F63B3367AB53E521C395FD" targetCS="2469869143" type="BusinessObjectModel" uuid="69e0bc46-7ca7-411e-ad53-f945dc45a259"/>
+<entry baseType="DecisionOperation" checksum="2626256559" projectName="Couleurs Regles" qualifiedName="OpCouleurs" sourceCS="07589D00D4E9759B78EACA2562B92078" targetCS="2626256559" type="DecisionOperation" uuid="d6227354-14e0-46d3-b103-8050447038f1"/>
+<entry baseType="Resource" checksum="1430853163" projectName="Couleurs Regles" qualifiedName="xom-libraries/CouleurXOM.zip" sourceCS="65A79D78265BB46E364DA2F95F2DF6E7" targetCS="1430853163" type="Resource" uuid="xom-libraries/CouleurXOM.zip"/>
+<entry baseType="Ruleflow" checksum="2268955823" projectName="Couleurs Regles" qualifiedName="rf" sourceCS="C03C71AFD27CD9F97D4B193AA6EE1213" targetCS="2268955823" type="Ruleflow" uuid="f54c1189-42ef-40cc-9578-3ba2dfc0bcc1"/>
+<entry baseType="RuleProjectInfo" checksum="3240960649" projectName="Couleurs Regles" qualifiedName="Couleurs Regles" sourceCS="572864EB3676C68037ADD9D41743EFA9" targetCS="3240960649" type="RuleProjectInfo" uuid="164a3ed4-c14d-4028-ad29-bfdd5f5225aa"/>
+<entry baseType="VariableSet" checksum="3877927542" projectName="Couleurs Regles" qualifiedName="paramètres" sourceCS="770B5E5C8618C0915246D5B4862D8DCA" targetCS="3877927542" type="VariableSet" uuid="783843dc-2360-4fd5-a79b-4f66f4281830"/>
+<entry baseType="Vocabulary" checksum="2469869143" projectName="Couleurs Regles" qualifiedName="modèle_fr_FR" sourceCS="F26BA52B92583582861F9F7520FF2A17" targetCS="2469869143" type="Vocabulary" uuid="2ef37b10-7218-4f22-af2c-738e45848638"/>
+</teamserver>
+</teamservers>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Variables Voyage</name>
+  <uuid>411ebe21-cf5a-49fc-a0d3-52b73c8932dc</uuid>
+  <variables name="resa" type="pn.src.Reservation" initialValue="" verbalization="la réservation"/>
+  <variables name="demande" type="pn.src.Demande" initialValue="" verbalization="la demande"/>
+</ilog.rules.studio.model.base:VariableSet>

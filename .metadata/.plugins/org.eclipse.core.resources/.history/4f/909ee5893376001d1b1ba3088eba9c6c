@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 10 - Changement de taux</name>
+  <uuid>8ded8344-0873-44d1-932b-c5e00fca2539</uuid>
+  <locale>fr_FR</locale>
+</ilog.rules.studio.model.brl:ActionRule>

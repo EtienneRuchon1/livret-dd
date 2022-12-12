@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><ImpactedElements>
+    <Rule id="138f7e4a-1c3d-473b-8145-d370ede2f935" path="règles/regleBase.brl">
+        <UserFlow id="f54c1189-42ef-40cc-9578-3ba2dfc0bcc1"/>
+    </Rule>
+    <Rule id="a32b70a4-8469-4701-a4fa-830ea52190aa" path="règles/regle2.brl">
+        <UserFlow id="f54c1189-42ef-40cc-9578-3ba2dfc0bcc1"/>
+    </Rule>
+</ImpactedElements>

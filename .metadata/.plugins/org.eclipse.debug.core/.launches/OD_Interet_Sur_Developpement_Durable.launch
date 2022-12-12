@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><launchConfiguration type="com.ibm.rules.studio.decisionservice.launching.DecisionOperation">
+<stringAttribute key="com.ibm.rules.studio.decisionservice.ui.OPERATION_PATH" value="/Calcul Interet Sur Developpement Durable Regle/déploiement/OD_Interet_Sur_Developpement_Durable"/>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_SIGN">
+<mapEntry key="compteEpargne" value="function pn.CompteEpargne get_compteEpargne_value()"/>
+<mapEntry key="transaction" value="function pn.Transaction get_transaction_value()"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_FUNCT_VALUES">
+<mapEntry key="compteEpargne" value="pn.CompteEpargne result = new pn.CompteEpargne(0.0,null,0.0);&#10;return result;"/>
+<mapEntry key="transaction" value="&#10;&#10;pn.Transaction result = new pn.Transaction(&quot;02/06/2009&quot;, 6000.0, true); &#10;return result;"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_NAMES">
+<mapEntry key="compteEpargne" value="compteEpargne"/>
+<mapEntry key="transaction" value="transaction"/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_SIMPLE_VALUES">
+<mapEntry key="compteEpargne" value=""/>
+<mapEntry key="transaction" value=""/>
+</mapAttribute>
+<mapAttribute key="ilog.rules.studio.launching.RULESET_PARAMETERS_TYPES">
+<mapEntry key="compteEpargne" value="2"/>
+<mapEntry key="transaction" value="2"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Calcul Interet Sur Developpement Durable Regle"/>
+<listEntry value="/Calcul Interet Sur Developpement Durable Regle"/>
+<listEntry value="/Calcul Interet Sur Developpement Durable Regle/déploiement/OD_Interet_Sur_Developpement_Durable.dop"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+<listEntry value="4"/>
+<listEntry value="1"/>
+</listAttribute>
+<booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Calcul Interet Sur Developpement Durable Regle"/>
+</launchConfiguration>

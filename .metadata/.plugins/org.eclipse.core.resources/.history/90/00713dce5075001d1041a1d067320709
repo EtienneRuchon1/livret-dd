@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" xmlns:ilog.rules.studio.model.query.extractor="http://ilog.rules.studio/model/query/extractor.ecore" rulesetName="OD_Interet_Sur_Developpement_Durable" targetRuleProjectName="Calcul Interet Sur Developpement Durable Regle">
+  <name>OD_Interet_Sur_Developpement_Durable</name>
+  <uuid>bd153d29-273f-49b3-bb09-cd9793bd6683</uuid>
+  <extractor xsi:type="ilog.rules.studio.model.query.extractor:QueryExtractor" name="OD_Interet_Sur_Developpement_Durable_extractor" validator="Valideur par défaut"/>
+  <targetRuleProject href="../../Calcul%20Interet%20Sur%20Developpement%20Durable%20Regle#1c684f95-6c6c-45d5-abbc-4666a8e9aa61"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>

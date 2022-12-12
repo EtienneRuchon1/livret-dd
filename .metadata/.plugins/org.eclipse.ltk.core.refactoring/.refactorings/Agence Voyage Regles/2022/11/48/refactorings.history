@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Renommer la ressource &apos;Agence Voyage Regles/règles/Calcul remise/TD 05 - remise pour voyage du voyage.dta&apos; en &apos;TD -  05 - remise pour voyage du voyage.dta&apos;" description="Renommer la ressource &apos;TD 05 - remise pour voyage du voyage.dta&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="règles/Calcul remise/TD 05 - remise pour voyage du voyage.dta" name="TD -  05 - remise pour voyage du voyage.dta" stamp="1669800454304" updateReferences="true"/>
+</session>

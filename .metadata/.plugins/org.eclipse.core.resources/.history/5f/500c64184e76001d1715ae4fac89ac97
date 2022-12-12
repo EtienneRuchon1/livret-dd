@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 04 - Calcul de l'intérêt avant changement de taux</name>
+  <uuid>9605ec5f-e031-4bbc-a26b-3aa0374a3fea</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[ définitions 
+	soit 'le nombre de quinzaines jusq au changement de taux' étant le nombre de quinzaines entre 'la date de référence' et 'la date de changement de taux' ; 
+ alors 
+	assigner l'interet de 'le compte épargne' à ( 'le nombre de quinzaines jusq au changement de taux'  * 'le taux' * le solde de 'le compte épargne' )/(100*24);]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

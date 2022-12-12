@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>Initialisation des coefficient</name>
+  <uuid>bd64d4ce-0603-4746-8406-7b2058b31892</uuid>
+</ilog.rules.studio.model.base:RulePackage>

@@ -1,0 +1,11 @@
+package pn;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class CompteEpargne {
+	
+	private List<Double> garanties = new ArrayList<Double>();
+
+
+}

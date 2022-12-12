@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>paramètres</name>
+  <uuid>783843dc-2360-4fd5-a79b-4f66f4281830</uuid>
+  <variables name="palette" type="src.pn.PaletteBase" initialValue="" verbalization="la palette"/>
+</ilog.rules.studio.model.base:VariableSet>

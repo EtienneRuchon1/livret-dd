@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><impactTables>
+    <ruleTable>
+        <vocElt id="pn.src.CodeVoyage">
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation/prixTotal/GETTER#0">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation/comparerCodeVoyage(pn.src.CodeVoyage,pn.src.CodeVoyage)/NAVIGATION#0">
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.CodeVoyage/motifTravail">
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.Passager/carteReduction/GETTER#0">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation/prixTotal/SETTER#0">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.CodeVoyage/motifLoisir">
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation/motifVoyage/GETTER#0">
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocElt>
+        <vocElt id="pn.src.Passager">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+        </vocElt>
+        <vocElt id="pn.src.Utilitaire/dist/GETTER#0">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+        </vocElt>
+    </ruleTable>
+    <vocTable>
+        <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c">
+            <vocElt id="pn.src.Reservation"/>
+            <vocElt id="pn.src.Reservation/prixTotal/GETTER#0"/>
+            <vocElt id="pn.src.Passager/carteReduction/GETTER#0"/>
+            <vocElt id="pn.src.Reservation/prixTotal/SETTER#0"/>
+            <vocElt id="pn.src.Passager"/>
+            <vocElt id="pn.src.Utilitaire/dist/GETTER#0"/>
+        </rule>
+        <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6">
+            <vocElt id="pn.src.CodeVoyage"/>
+            <vocElt id="pn.src.Reservation/comparerCodeVoyage(pn.src.CodeVoyage,pn.src.CodeVoyage)/NAVIGATION#0"/>
+            <vocElt id="pn.src.Reservation"/>
+            <vocElt id="pn.src.Reservation/prixTotal/GETTER#0"/>
+            <vocElt id="pn.src.CodeVoyage/motifTravail"/>
+            <vocElt id="pn.src.Reservation/prixTotal/SETTER#0"/>
+            <vocElt id="pn.src.CodeVoyage/motifLoisir"/>
+            <vocElt id="pn.src.Reservation/motifVoyage/GETTER#0"/>
+        </rule>
+    </vocTable>
+    <ruleParamTable>
+        <param id="resa">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </param>
+    </ruleParamTable>
+    <paramTable>
+        <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c">
+            <param id="resa"/>
+        </rule>
+        <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6">
+            <param id="resa"/>
+        </rule>
+    </paramTable>
+    <projectTable/>
+    <variableTable>
+        <param id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </param>
+    </variableTable>
+    <ruleVocFileTable>
+        <vocFile file="/Agence Voyage BOM/BOM/modèle Agence_fr_FR.voc" id="60a56afa-a987-4cbf-b816-1a3b6002be1c">
+            <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        </vocFile>
+    </ruleVocFileTable>
+    <resourceTable>
+        <resource file="/Agence Voyage Regles/règles/Calcul remise/TD - 06 Remise en fonction de la distance et du code de reduction.dta" id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+        <resource file="/Agence Voyage Regles/règles/Calcul remise/TD -  05 - remise pour voyage du voyage.dta" id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
+        <resource file="/Agence Voyage Regles/règles/Variables Voyage.var" id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
+    </resourceTable>
+</impactTables>

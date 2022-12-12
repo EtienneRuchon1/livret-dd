@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>Règle 07 - Remise sur code promotionnel</name>
+  <uuid>3c1320c2-c473-42f8-8121-606fb29c55ed</uuid>
+  <locale>fr_FR</locale>
+  <definition><![CDATA[si 
+	le code promo de 'la réservation' est Code Promo 01 
+alors 
+	assigner le prix total de 'la réservation' à (le prix total de 'la réservation' *0,9);
+	afficher "remise de 10% sur le code promo 01"; ]]></definition>
+  <effectiveDate>2022-11-01T00:00:00.000+0100</effectiveDate>
+</ilog.rules.studio.model.brl:ActionRule>
