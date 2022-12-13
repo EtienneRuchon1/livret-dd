@@ -119,6 +119,5 @@
         <resource file="/Assurance Regle/règles/Calcul des coefficients/TD 03 Calcul du coefficient de société.dta" id="399c725d-bb80-4f49-a4c9-43b5feaf406b"/>
         <resource file="/Assurance Regle/règles/Calcul des coefficients/TD 04 Calcul du coefficient de bonus.dta" id="a5f732e6-1476-428d-b0a0-71211b86189a"/>
         <resource file="/Assurance Regle/règles/Calcul des coefficients/TD 02 - Caclul du seuil de cotisation.dta" id="caa61d7c-a2eb-434c-9313-e7173f000432"/>
-        <resource file="/Assurance Regle/règles/Variable Assurance.var" id="5bc2dafc-340e-4e18-aa59-303b6b022f57"/>
     </resourceTable>
 </impactTables>

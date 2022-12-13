@@ -176,7 +176,6 @@
         <resource file="/Assurance Regle/règles/Caclul de la cotisation de base/Règle 01 Calcul de la cotisation de base.brl" id="82d39a13-cd83-43a6-9c0b-fbc62dc6302a"/>
         <resource file="/Assurance Regle/règles/Initialisation des coefficient/Initialisation des coefficients.brl" id="ca6f091b-3913-45a5-9b50-997cb4b7f778"/>
         <resource file="/Assurance Regle/règles/Calcul de la cotisation théorique/Calcul de la cotisation théorique.brl" id="39bb6ec7-4969-4ada-8e85-f071027946b5"/>
-        <resource file="/Assurance Regle/règles/Variable Assurance.var" id="5bc2dafc-340e-4e18-aa59-303b6b022f57"/>
         <resource file="/Assurance Regle/règles/Calcul de la cotisation de base HT/Calcul de la cotisation de base HT.brl" id="defbf0ea-5c9a-4c7c-90aa-8d5b4fb9334a"/>
         <resource file="/Assurance Regle/règles/Calcul de la cotisation de base globale/Calcul de la cotisation HT globale.brl" id="66585bf6-f91e-4dc8-a445-8718792abc9a"/>
     </resourceTable>

@@ -1,9 +1,0 @@
-package pn;
-
-public class CompteEpargne {
-	
-	double solde;
-	double interet;
-	double interetsCumules;
-
-}

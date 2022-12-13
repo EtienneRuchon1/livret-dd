@@ -156,7 +156,6 @@
         <resource file="/Agence Voyage Regles/règles/Calcul du parcours/Règle 01 - initialisation.brl" id="d6a44b45-90ee-479c-8c41-607e37db4b56"/>
         <resource file="/Agence Voyage Regles/règles/Contrôle données/Règle 07 - Contrôle ville depart et destination.brl" id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
         <resource file="/Agence Voyage Regles/règles/Détermination de l'état de la réservation/Règle 03 - Contrôle sur le coût du voyage.brl" id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
-        <resource file="/Agence Voyage Regles/règles/Variables Voyage.var" id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
         <resource file="/Agence Voyage Regles/règles/Calcul remise/Règle 07 - Remise sur code promotionnel.brl" id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         <resource file="/Agence Voyage Regles/règles/Détermination de l'état de la réservation/Règle 04 -  Contrôle du nombre de correspondances.brl" id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
     </resourceTable>

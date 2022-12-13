@@ -2,12 +2,13 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="while" key="selection"/>
+		<item value="proper" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
+			<item value="proper"/>
 			<item value="while"/>
 			<item value="convertiEnDate"/>
 			<item value="System"/>
@@ -22,7 +23,6 @@
 			<item value="passagers"/>
 			<item value="coefBonus"/>
 			<item value="coefficientBonus"/>
-			<item value="coefSociete"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Transactions"/>

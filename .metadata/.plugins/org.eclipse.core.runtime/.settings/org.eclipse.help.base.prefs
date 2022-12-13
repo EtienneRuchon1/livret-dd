@@ -7,3 +7,4 @@ remoteHelpPath=/support/knowledgecenter/SSQP76_8.10.x,
 remoteHelpPort=80,
 remoteHelpPreferred=true
 remoteHelpProtocol=http,
+scope=

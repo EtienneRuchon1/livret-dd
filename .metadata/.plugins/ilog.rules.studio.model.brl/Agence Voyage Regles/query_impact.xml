@@ -48,7 +48,6 @@
     </ruleVocFileTable>
     <resourceTable>
         <resource file="/Agence Voyage Regles/requêtes/Un état annulé.qry" id="b94641a5-6c09-41f9-a2a3-710dc912e9f7"/>
-        <resource file="/Agence Voyage Regles/règles/Variables Voyage.var" id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
         <resource file="/Agence Voyage Regles/requêtes/Modifie valeur réservation.qry" id="df070014-257c-4ed4-a3a1-646191cccfa0"/>
     </resourceTable>
 </impactTables>
