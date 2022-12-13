@@ -1,11 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<syncparticipants>
-<participant displayName="Synchronisation de Rule Designer à Decision Center (/Calcul Interet Sur Livret Developpement Durable Regle - principale, /Calcul Interet Sur Livret Developpement Durable BOM - principale) " id="ilog.rules.synchronization.eclipseui.syncparticipant" secondary_id="1670595516709">
-<data root="false">
-<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">&#x0A;<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
-<resource_scope_roots resource_scope_root_resource="/Calcul Interet Sur Livret Developpement Durable Regle"/>
-<resource_scope_roots resource_scope_root_resource="/Calcul Interet Sur Livret Developpement Durable BOM"/>
-</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
-</data>
-</participant>
-</syncparticipants>
+<syncparticipants/>
