@@ -7,16 +7,16 @@
         </vocElt>
         <vocElt id="pn.src.Reservation">
             <rule id="d6a44b45-90ee-479c-8c41-607e37db4b56"/>
-            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
-            <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
-        </vocElt>
-        <vocElt id="pn.src.Reservation/prixTotal/SETTER#0">
             <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </vocElt>
         <vocElt id="pn.src.CodeVoyage/motifLoisir">
             <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation/prixTotal/SETTER#0">
+            <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </vocElt>
         <vocElt id="pn.src.Demande/arrivee/GETTER#0">
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
@@ -27,19 +27,19 @@
         <vocElt id="pn.src.CodePromotionnel/CP01">
             <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </vocElt>
-        <vocElt id="pn.src.CodePromotionnel">
-            <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
-        </vocElt>
         <vocElt id="pn.src.Demande/budgetMax/GETTER#0">
             <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
+        </vocElt>
+        <vocElt id="pn.src.CodePromotionnel">
+            <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </vocElt>
         <vocElt id="pn.src.Reservation/nbCorrespondances/GETTER#0">
             <rule id="d6a44b45-90ee-479c-8c41-607e37db4b56"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
         </vocElt>
         <vocElt id="pn.src.Demande">
-            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
         </vocElt>
         <vocElt id="pn.src.CodeVoyage">
@@ -49,15 +49,15 @@
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
         </vocElt>
         <vocElt id="pn.src.Reservation/etat/SETTER#0">
-            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
-        </vocElt>
-        <vocElt id="pn.src.Reservation/codePromo/GETTER#0">
-            <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </vocElt>
         <vocElt id="pn.src.Demande/nbCorresMax/GETTER#0">
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+        </vocElt>
+        <vocElt id="pn.src.Reservation/codePromo/GETTER#0">
+            <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </vocElt>
     </ruleTable>
     <vocTable>
@@ -65,6 +65,13 @@
             <vocElt id="pn.src.Reservation/prixTotal/GETTER#0"/>
             <vocElt id="pn.src.Reservation"/>
             <vocElt id="pn.src.Reservation/nbCorrespondances/GETTER#0"/>
+        </rule>
+        <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef">
+            <vocElt id="pn.src.Reservation"/>
+            <vocElt id="pn.src.Reservation/etat/SETTER#0"/>
+            <vocElt id="pn.src.Demande/nbCorresMax/GETTER#0"/>
+            <vocElt id="pn.src.Reservation/nbCorrespondances/GETTER#0"/>
+            <vocElt id="pn.src.Demande"/>
         </rule>
         <rule id="bb9faba2-c184-43a4-9690-896c88f9511c">
             <vocElt id="pn.src.CodeVoyage"/>
@@ -74,13 +81,6 @@
             <vocElt id="pn.src.Reservation/etat/SETTER#0"/>
             <vocElt id="pn.src.Reservation/motifVoyage/GETTER#0"/>
             <vocElt id="pn.src.Demande/budgetMax/GETTER#0"/>
-            <vocElt id="pn.src.Demande"/>
-        </rule>
-        <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef">
-            <vocElt id="pn.src.Reservation"/>
-            <vocElt id="pn.src.Reservation/etat/SETTER#0"/>
-            <vocElt id="pn.src.Demande/nbCorresMax/GETTER#0"/>
-            <vocElt id="pn.src.Reservation/nbCorrespondances/GETTER#0"/>
             <vocElt id="pn.src.Demande"/>
         </rule>
         <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25">
@@ -102,14 +102,14 @@
     <ruleParamTable>
         <param id="resa">
             <rule id="d6a44b45-90ee-479c-8c41-607e37db4b56"/>
-            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
             <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </param>
         <param id="demande">
-            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
         </param>
     </ruleParamTable>
@@ -117,11 +117,11 @@
         <rule id="d6a44b45-90ee-479c-8c41-607e37db4b56">
             <param id="resa"/>
         </rule>
-        <rule id="bb9faba2-c184-43a4-9690-896c88f9511c">
+        <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef">
             <param id="resa"/>
             <param id="demande"/>
         </rule>
-        <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef">
+        <rule id="bb9faba2-c184-43a4-9690-896c88f9511c">
             <param id="resa"/>
             <param id="demande"/>
         </rule>
@@ -137,8 +137,8 @@
     <variableTable>
         <param id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc">
             <rule id="d6a44b45-90ee-479c-8c41-607e37db4b56"/>
-            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
             <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </param>
@@ -146,8 +146,8 @@
     <ruleVocFileTable>
         <vocFile file="/Agence Voyage BOM/BOM/modèle Agence_fr_FR.voc" id="60a56afa-a987-4cbf-b816-1a3b6002be1c">
             <rule id="d6a44b45-90ee-479c-8c41-607e37db4b56"/>
-            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
+            <rule id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
             <rule id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
             <rule id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         </vocFile>
@@ -156,7 +156,6 @@
         <resource file="/Agence Voyage Regles/règles/Calcul du parcours/Règle 01 - initialisation.brl" id="d6a44b45-90ee-479c-8c41-607e37db4b56"/>
         <resource file="/Agence Voyage Regles/règles/Contrôle données/Règle 07 - Contrôle ville depart et destination.brl" id="d7f5ac82-5ccd-41f6-afc0-357f1e157a25"/>
         <resource file="/Agence Voyage Regles/règles/Détermination de l'état de la réservation/Règle 03 - Contrôle sur le coût du voyage.brl" id="bb9faba2-c184-43a4-9690-896c88f9511c"/>
-        <resource file="/Agence Voyage Regles/règles/Variables Voyage.var" id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
         <resource file="/Agence Voyage Regles/règles/Calcul remise/Règle 07 - Remise sur code promotionnel.brl" id="3c1320c2-c473-42f8-8121-606fb29c55ed"/>
         <resource file="/Agence Voyage Regles/règles/Détermination de l'état de la réservation/Règle 04 -  Contrôle du nombre de correspondances.brl" id="c4f45e08-d5b4-4b22-8d8c-f9707543a1ef"/>
     </resourceTable>

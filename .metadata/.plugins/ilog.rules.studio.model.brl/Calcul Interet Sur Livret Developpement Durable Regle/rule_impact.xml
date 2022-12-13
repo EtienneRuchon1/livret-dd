@@ -208,12 +208,10 @@
     </ruleVocFileTable>
     <resourceTable>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 02 - Calcul de l'intérêt avant le changement de taux/Règle 02 - Calcul de l'intérêt avant le changement de taux.brl" id="a04f76e4-e717-495b-9295-8d3e80d1b043"/>
-        <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 03 - Calcul de l'intérêt pendant le changement de taux/Intéret pendant changement de taux.var" id="e7443a24-bdd0-4248-a494-c37f37dc4ae8"/>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 03 - Calcul de l'intérêt pendant le changement de taux/Règle 03 - Calcul de l'intérêt avant changement de taux.brl" id="3131ffb7-93fa-4809-9f83-579a8342e364"/>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 04 - Calcul de l'intérêt après le changement de taux/Règle 07 - Calcul de l'intérêt avant le changement de taux.brl" id="c41afbe3-41dd-4bfc-83d2-e5cdf1569448"/>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 04 - Calcul de l'intérêt après le changement de taux/Règle 06 - Changement de taux.brl" id="569fb9cd-4b5e-4ee7-955c-83eca014227f"/>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 03 - Calcul de l'intérêt pendant le changement de taux/Règle 04 - Changement de taux.brl" id="64423474-e897-4152-86bd-32704a4170aa"/>
-        <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Variable Interet Sur Developppement Durable.var" id="a24f7568-f5a0-42c9-b733-a2730c41e5ce"/>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 03 - Calcul de l'intérêt pendant le changement de taux/Règle 05 - Calcul de l'intérêt après changement de taux.brl" id="77880882-3d80-4c5e-abf9-1bacb5eaad71"/>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 05 - Effectuer la transaction/Règle 08 - Effectuer la transaction.brl" id="092cda5a-24f1-44a0-89ff-f33d34689a15"/>
         <resource file="/Calcul Interet Sur Livret Developpement Durable Regle/règles/Paquet 01 - Appliquer la date de valeur d'une transaction/Règle 01 - Calcul de la date de valeur.brl" id="def5823b-d2d1-4c3a-bdc0-f913468b8bfd"/>

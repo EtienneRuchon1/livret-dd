@@ -15,4 +15,10 @@
 	<classpathentry kind="var" path="ILOG_EXECUTION_SERVER_HOME/lib/commons-compress-1.18.jar"/>
 	<classpathentry exported="true" kind="src" path="/Calcul Interet Sur Livret Developpement Durable XOM"/>
 	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+        <attributes>
+            <attribute name="maven.pomderived" value="true"/>
+            <attribute name="org.eclipse.jst.component.nondependency" value=""/>
+        </attributes>
+</classpathentry> 
 </classpath>

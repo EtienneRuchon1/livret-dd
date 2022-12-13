@@ -1,7 +1,0 @@
-package pn;
-
-public class Credit extends Operation{
-	
-	
-
-}

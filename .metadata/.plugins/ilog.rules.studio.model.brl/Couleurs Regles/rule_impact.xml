@@ -55,6 +55,5 @@
     <resourceTable>
         <resource file="/Couleurs Regles/règles/regle2.brl" id="a32b70a4-8469-4701-a4fa-830ea52190aa"/>
         <resource file="/Couleurs Regles/règles/regleBase.brl" id="138f7e4a-1c3d-473b-8145-d370ede2f935"/>
-        <resource file="/Couleurs Regles/règles/paramètres.var" id="783843dc-2360-4fd5-a79b-4f66f4281830"/>
     </resourceTable>
 </impactTables>

@@ -14,11 +14,11 @@
         <vocElt id="pn.src.Reservation/comparerCodeVoyage(pn.src.CodeVoyage,pn.src.CodeVoyage)/NAVIGATION#0">
             <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
         </vocElt>
-        <vocElt id="pn.src.CodeVoyage/motifTravail">
-            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
-        </vocElt>
         <vocElt id="pn.src.Passager/carteReduction/GETTER#0">
             <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
+        </vocElt>
+        <vocElt id="pn.src.CodeVoyage/motifTravail">
+            <rule id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
         </vocElt>
         <vocElt id="pn.src.Reservation/prixTotal/SETTER#0">
             <rule id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
@@ -87,6 +87,5 @@
     <resourceTable>
         <resource file="/Agence Voyage Regles/règles/Calcul remise/TD - 06 Remise en fonction de la distance et du code de reduction.dta" id="44b7b696-f171-4eae-b1b5-d93c68b6f73c"/>
         <resource file="/Agence Voyage Regles/règles/Calcul remise/TD -  05 - remise pour voyage du voyage.dta" id="a1b5cb26-7437-44b4-bddf-4b1878b97bf6"/>
-        <resource file="/Agence Voyage Regles/règles/Variables Voyage.var" id="411ebe21-cf5a-49fc-a0d3-52b73c8932dc"/>
     </resourceTable>
 </impactTables>
