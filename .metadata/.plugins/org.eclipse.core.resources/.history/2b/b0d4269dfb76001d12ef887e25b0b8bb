@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>Calcul de l'intérêt après changement</name>
-  <uuid>58e677a2-d3ae-4df1-821d-a06431417931</uuid>
-</ilog.rules.studio.model.base:RulePackage>

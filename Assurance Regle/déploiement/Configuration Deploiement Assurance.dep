@@ -2,9 +2,6 @@
 <com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="Configuration_Deploiement_Assurance" managingXom="true">
   <name>Configuration Deploiement Assurance</name>
   <uuid>8f541f2a-9ba6-4fa9-bbdb-b76970afbd7e</uuid>
-  <targets label="Connexion Assurance"/>
-  <targets label="Connection locale asssurance bis"/>
-  <targets label="Connexion console Assurance"/>
   <operations operationName="OD_Assurance">
     <operation href="OD_Assurance.dop#7ffe0013-088e-47b4-b686-7310d4484c95"/>
     <properties key="ruleset.version">

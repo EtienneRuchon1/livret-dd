@@ -2,8 +2,7 @@
 <com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="Configuration_Deploiement_Interet_Sur_Developpement_Durable" managingXom="true">
   <name>Configuration_Deploiement_Interet_Sur_Developpement_Durable</name>
   <uuid>9500ba3d-56b7-460c-9d19-93311a2c506c</uuid>
-  <targets label="Connexion locale intérêt sur le livret développement durable"/>
-  <targets label="Connexion Console Livret Developpement Durable"/>
+  <targets label="connexion res interet developpement durable"/>
   <operations operationName="OD_Interet_Sur_Developpement_Durable">
     <operation href="OD_Interet_Sur_Developpement_Durable.dop#bd153d29-273f-49b3-bb09-cd9793bd6683"/>
     <properties key="ruleset.version">

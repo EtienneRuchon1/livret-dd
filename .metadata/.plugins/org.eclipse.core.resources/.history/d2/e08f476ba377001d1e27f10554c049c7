@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>Calcul de l'intérêt avant le changement de taux</name>
-  <uuid>65805a1a-e218-4ad0-ae7a-9b1e45febf80</uuid>
-</ilog.rules.studio.model.base:RulePackage>

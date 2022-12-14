@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
-  <name>Règle 03 - Calcul de l'intérêt</name>
-  <uuid>c41afbe3-41dd-4bfc-83d2-e5cdf1569448</uuid>
-  <locale>fr_FR</locale>
-  <definition><![CDATA[alors
-    affecter à 'le nombre de quinzaines' la valeur le nombre de quinzaines entre 'la date de référence' et convertie en date de la date de valeur de 'la transaction' ;]]></definition>
-</ilog.rules.studio.model.brl:ActionRule>

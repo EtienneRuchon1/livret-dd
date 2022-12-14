@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>Changement de la date par la date de valeur</name>
-  <uuid>1fba576a-d1bd-46ac-b665-32e400b597e5</uuid>
-</ilog.rules.studio.model.base:RulePackage>

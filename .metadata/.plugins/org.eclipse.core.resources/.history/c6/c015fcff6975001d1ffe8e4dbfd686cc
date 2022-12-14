@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
-  <name>Règle 01 - Créditer le compte épargne</name>
-  <uuid>59bd3454-485a-4522-8257-26811577f5d4</uuid>
-  <locale>fr_FR</locale>
-</ilog.rules.studio.model.brl:ActionRule>

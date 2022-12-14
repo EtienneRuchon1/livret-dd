@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Renommer la ressource &apos;Calcul Interet Sur Developpement Durable BOM/règles/Paquet 01 - Calcul Intéressement&apos; en &apos;Paquet 01 - Calcul des intérêts&apos;" description="Renommer la ressource &apos;Paquet 01 - Calcul Intéressement&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="règles/Paquet 01 - Calcul Intéressement" name="Paquet 01 - Calcul des intérêts" stamp="1670333172725" updateReferences="true"/>
-</session>

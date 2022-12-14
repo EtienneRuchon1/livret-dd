@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>Détermination de la date de valeur pour un crédit</name>
-  <uuid>fb189715-7c67-4eb1-a798-2f91e1175b5e</uuid>
-</ilog.rules.studio.model.base:RulePackage>
